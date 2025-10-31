@@ -2,7 +2,7 @@
 
 Welcome to the **Smartphone Widget** module!
 
-This is the official public repository for submitting bug reports and feature suggestions. The module's source code is kept in a private repository for Patreon subscribers.
+This is the official public repository for submitting bug reports and feature suggestions.
 
 Your feedback is invaluable for improving the module.
 
