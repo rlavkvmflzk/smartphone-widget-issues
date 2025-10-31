@@ -37,8 +37,10 @@ You are welcome to submit bugs and suggestions, but please keep the following in
 
 ### ✨ Suggesting a Feature
 
-1.  **Search First:** See if your idea has already been suggested.
-2.  **New Issue:** Use the `Feature Request` template.
-3.  **Be Clear:** Explain what the feature is and *why* it would be useful.
+Have a great idea? We're excited to hear it! To help us keep track of all the wonderful suggestions, please follow these simple steps:
+
+1.  **Search First:** Please take a moment to see if someone else has already suggested the same idea. This helps avoid duplicates and keeps the tracker clean.
+2.  **New Issue:** If your idea is new, please use the Feature Request template. This helps organize the details.
+3.  **Be Clear:** We'd love to know what the feature is and why you think it would be useful. The more detail you can provide (like how you imagine it working), the better!
 
 Thank you for your support and for helping improve the Smartphone Widget!
