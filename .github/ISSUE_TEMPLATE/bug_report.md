@@ -7,32 +7,17 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+### 🐞 Detailed Description (Required)
+To investigate and fix the bug, the following information is essential. Issues without this information may be difficult to resolve.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+* **Foundry VTT Version:** (e.g., V11 Build 315, V12 Build 327)
+* **Game System (and Version):** (e.g., dnd5e 3.0.0, shadowrun 6e 0.10.0)
+* **Other Active Modules:** (Please list all, or at least any modules related to UI, time, or chat.)
+* **Exact Steps to Reproduce (Most Important!):**
+    1.  ...
+    2.  ...
+    3.  ...
+* **Context:** (e.g., "This happens as a GM," "Occurs when a player opens the Settings app," "Happens immediately after sending a message," etc.)
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+### Screenshots (Optional)
+(If possible, please attach screenshots or a short GIF showing the problem.)
