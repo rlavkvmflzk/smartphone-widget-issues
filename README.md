@@ -27,7 +27,13 @@ You are welcome to submit bugs and suggestions, but please keep the following in
 
 1.  **Search First:** Check if your bug has already been reported.
 2.  **New Issue:** Use the `Bug Report` template.
-3.  **Be Detailed:** Please include your game system, other modules, and the exact steps to reproduce the bug.
+3.  **Be Detailed (Required):** To investigate and fix the bug, I need specific details. Without this information, it is very difficult to resolve the issue.
+
+* Foundry VTT Version: (e.g., V11 Build 315, V12 Build 327)
+* Game System (and Version): (e.g., dnd5e 3.0.0, shadowrun 6e 0.10.0)
+* Other Active Modules: (Either the full list or at least any modules related to UI, time, or chat.)
+* Exact Steps to Reproduce (Most Important!): Please list the specific steps from start to finish that cause the bug to happen.
+* Context: (e.g., "This happens as a GM," "Occurs when a player opens the Settings app," "Happens immediately after sending a message," etc.)
 
 ### ✨ Suggesting a Feature
 
