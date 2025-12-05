@@ -1,7 +1,67 @@
 {
-  "latestVersion": "1.6.3",
+  "latestVersion": "1.6.4",
   "downloadUrl": "", 
-  "notes": "스캐너 앱 정식 출시(v1.0)! 매크로 앱 얼리 액세스 추가! 드래그 앤 드롭 홈 화면 배치 기능 등 대규모 업데이트가 적용되었습니다.",
+  "notes": "This major update brings complete independence to the module, introduces the all-new Gallery and Macro apps, and marks the official release of the Scanner App!
+
+🚀 New Apps & Extensions
+🖼️ Gallery App
+
+Unified Image Manager: A central hub to view and manage all your device's images.
+
+Built-in Editor: Crop images into rectangles or circles directly within the app. Perfect for setting profile pictures!
+
+Seamless Sharing: Share images to the Chat Log, Messages, or Social apps with a single tap.
+
+External Link Support: Caches and displays images from external URLs via proxy.
+
+💻 Macro App (Early Access v0.1)
+
+Cyberdeck Functionality: Turn your phone into a command terminal. Execute Foundry macros directly from the interface.
+
+Macro Explorer: Organize your scripts with folders and search functions.
+
+Wireless Sharing: Send macros to other players as downloadable "Data Packets" via the Messages app.
+
+Home Screen Shortcuts: Drag your favorite macros to the home screen for instant access.
+
+📡 Scanner App (Official Release v1.0)
+
+Out of Early Access: Now available to all Supporter Tier users!
+
+New Puzzles: Added Frequency Sync (Rhythm/Timing) and Circuit Connection (Logic) mini-games.
+
+Info Combination: Combine two pieces of data or items to deduce hidden secrets.
+
+UX Improvements: Improved feedback visuals for failed puzzles and combinations.
+
+✨ Core Features & Customization
+Freedom of Arrangement: You can now drag and drop app icons on the Home Screen to rearrange them or move them to different pages.
+
+Full Customization: GMs can now rename apps and change app icons. The app headers will dynamically update to match your custom lore.
+
+Social App Navigation: Improved UX—Tapping a user's avatar or name in the post details or comment section now instantly navigates to their profile.
+
+Emoji Picker: Added a built-in emoji picker to the Messages App input bar. 😃
+
+Layer Settings: Added a "Window Mode" setting. You can now choose whether the phone stays "Always on Top" or behaves like a standard window.
+
+🛠️ Technical Improvements
+No Dependencies: The module is now fully independent and no longer requires socketlib.
+
+Refactored to ApplicationV2: The core widget creation and settings windows have been refactored to ApplicationV2 for better performance, V13/V14 compatibility, and future Pop-out support.
+
+New Developer API: Added selectChatRecipient(title, onSelect). This API allows external modules or macros to open the phone's contact selection dialog, making it easier to build integrations for trading items, transferring currency, or sharing data.
+
+Recipient Selector: The contact selection interface (for sharing/messaging) has been separated into a standalone, searchable window for better usability.
+
+🐛 Bug Fixes
+Phone Generation: Fixed an issue where only the first pattern was applied when multiple phone number patterns were enabled.
+
+Scanner: Fixed an issue where the scanner would timeout prematurely. It now waits indefinitely for GM input.
+
+Scanner: Added a proper error message when a "No Result" response is sent.
+
+UI: Fixed various CSS styling issues to ensure consistent visibility across different frame styles.",
   "critical": false,
   "announcement": {
     "id": "",
