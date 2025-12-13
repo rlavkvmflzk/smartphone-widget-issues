@@ -1,0 +1,12 @@
+{
+  "latestVersion": "1.0.1",
+  "downloadUrl": "https://github.com/...", 
+  "notes": "- Added automatic update notification feature.<br>- Fixed CSS conflicts where tabs in the PF2e system sheet were hidden.",
+  "critical": false,
+  "announcement": {
+    "id": "notice-001",
+    "show": false,
+    "title": "Announcement",
+    "content": "This is an announcement message."
+  }
+}
