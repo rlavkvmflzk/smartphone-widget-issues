@@ -4,7 +4,7 @@
   "notes": "- Added automatic update notification feature.<br>- Fixed CSS conflicts where tabs in the PF2e system sheet were hidden.",
   "critical": false,
   "announcement": {
-    "id": "notice-001",
+    "id": "",
     "show": false,
     "title": "Announcement",
     "content": "This is an announcement message."
