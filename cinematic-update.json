@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.0.5",
+  "latestVersion": "1.0.6",
   "downloadUrl": "", 
-  "notes": "Improved turn detection logic for non-standard systems (Lancer/Fabula) and fixed an issue where cut-ins could trigger twice in some systems (PF1e).",
+  "notes": "Added optimized layouts for 5-6 participants (Rebel/Comic/Urban/Noir). Fixed a bug where deleting a participant removed the wrong entry. Fixed missing center text in Classic Slice theme.",
   "critical": false,
   "announcement": {
     "id": "",
