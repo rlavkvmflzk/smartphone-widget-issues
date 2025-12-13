@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.0.3",
+  "latestVersion": "1.0.4",
   "downloadUrl": "", 
-  "notes": "- Added automatic update notification feature.<br>- Fixed CSS conflicts where tabs in the PF2e system sheet were hidden.",
+  "notes": "Modifying language files that were misconfigured and not applied.",
   "critical": false,
   "announcement": {
     "id": "",
