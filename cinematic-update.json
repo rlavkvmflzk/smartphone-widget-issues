@@ -6,7 +6,7 @@
   "announcement": {
     "id": "",
     "show": false,
-    "title": "Announcement",
-    "content": "This is an announcement message."
+    "title": "",
+    "content": ""
   }
 }
