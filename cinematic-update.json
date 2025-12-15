@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.1.1",
+  "latestVersion": "1.1.2",
   "downloadUrl": "",
-  "notes": "Hotfix: Fixed a layout synchronization issue in the 'Arcane' theme where elements would drift apart when adjusting the vertical (Y) position.",
+  "notes": "Update: Cinematic Cut-ins v1.1.2\n\nTheme Fixes (Blitz): Fixed visual bugs in 'Blitz' and 'Blitz Left' themes where subtext color and vertical position settings were ignored.\n\nConfig Fixes: Fixed an issue where Position X/Y sliders would incorrectly reset to default values when switching themes.",
   "critical": false,
   "announcement": {
     "id": "",
