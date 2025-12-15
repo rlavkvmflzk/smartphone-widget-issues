@@ -1,11 +1,11 @@
 {
   "latestVersion": "1.1.1",
   "downloadUrl": "",
-  "notes": "v1.1 Major Update: Added 'Scope' & 'Blitz' themes. Enhanced text/roll detection for both Actor & Item Triggers. Added Global Style templates and multi-trigger support for items. Optimized performance via lazy loading. Fixed PF1 compatibility. Fixed Arcane theme layout bug.",
+  "notes": "Hotfix: Fixed a layout synchronization issue in the 'Arcane' theme where elements would drift apart when adjusting the vertical (Y) position.",
   "critical": false,
   "announcement": {
     "id": "",
-    "show": "false",
+    "show": false,
     "title": "",
     "content": ""
   }
