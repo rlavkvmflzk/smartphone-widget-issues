@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.1.2",
+  "latestVersion": "1.1.4",
   "downloadUrl": "",
-  "notes": "Update: Cinematic Cut-ins v1.1.2\n\nTheme Fixes (Blitz): Fixed visual bugs in 'Blitz' and 'Blitz Left' themes where subtext color and vertical position settings were ignored.\n\nConfig Fixes: Fixed an issue where Position X/Y sliders would incorrectly reset to default values when switching themes.",
+  "notes": "Update: Cinematic Cut-ins v1.1.4\n\nTheme Fixes (Blitz): Fixed visual bugs in 'Blitz' and 'Blitz Left' themes where subtext color and vertical position settings were ignored. Applied additional bug fixes regarding the Blitz theme layout and text offsets.\n\nConfig Fixes: Fixed an issue where Position X/Y sliders would incorrectly reset to default values when switching themes.",
   "critical": false,
   "announcement": {
     "id": "",
