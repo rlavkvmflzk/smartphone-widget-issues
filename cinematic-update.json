@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.1.0",
-  "downloadUrl": "", 
-  "notes": "v1.1 Major Update: Added 'Scope' & 'Blitz' themes. Enhanced text/roll detection for both Actor & Item Triggers. Added Global Style templates and multi-trigger support for items. Optimized performance via lazy loading. Fixed PF1 compatibility.",
+  "latestVersion": "1.1.1",
+  "downloadUrl": "",
+  "notes": "v1.1 Major Update: Added 'Scope' & 'Blitz' themes. Enhanced text/roll detection for both Actor & Item Triggers. Added Global Style templates and multi-trigger support for items. Optimized performance via lazy loading. Fixed PF1 compatibility. Fixed Arcane theme layout bug.",
   "critical": false,
   "announcement": {
-    "id": "cinematic-cutin-v1.1",
-    "show": true,
-    "title": "v1.1 Major Update: New Themes & Enhanced Triggers!",
-    "content": "This update introduces 'Scope' & 'Blitz' themes, Global Styles, and a massive overhaul to Triggers. Both Actor and Item triggers now feature enhanced roll detection. Setup is easier with Context Menu Hints!"
+    "id": "",
+    "show": "false",
+    "title": "",
+    "content": ""
   }
 }
