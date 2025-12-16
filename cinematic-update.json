@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.1.4",
+  "latestVersion": "1.1.5",
   "downloadUrl": "",
-  "notes": "Update: Cinematic Cut-ins v1.1.4\n\nTheme Fixes (Blitz): Fixed visual bugs in 'Blitz' and 'Blitz Left' themes where subtext color and vertical position settings were ignored. Applied additional bug fixes regarding the Blitz theme layout and text offsets.\n\nConfig Fixes: Fixed an issue where Position X/Y sliders would incorrectly reset to default values when switching themes.",
+  "notes": "Update: Cinematic Cut-ins v1.1.5\n\n✨ New Features\n- Midi-QOL Integration: Added dedicated global triggers (On Attack, On Damage, On Critical) for D&D 5e actors. These options appear only when Midi-QOL is active.\n- Global Style Triggers: Triggers can now be saved in Global Styles. When importing to an Actor, you can choose to Style Only, Append, or Replace triggers.\n- Enhanced Analysis: Expanded text detection scope to include item names and merged content for better keyword recognition.\n- Monk's Common Display Support: Fixed compatibility issues where the overlay was hidden in spectator mode.\n\n🐛 Bug Fixes\n- Playback Duplication: Fixed a critical issue where cut-ins triggered multiple times due to user permission conflicts (Resources, Combat, Chat).",
   "critical": false,
   "announcement": {
     "id": "",
