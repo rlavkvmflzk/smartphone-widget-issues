@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.1.6",
+  "latestVersion": "1.1.7",
   "downloadUrl": "",
-  "notes": "<b>v1.1.6 Update Highlights</b><br><br>✨ <b>Advanced Formula Trigger</b><br>Custom logic support (e.g. d[0] == d[1]) for complex rules.<br><br>✨ <b>Variation Text Support</b><br>You can now customize text for each random image variation.<br><br>✨ <b>Resource Trigger Mode</b><br>Added 'Increase' (Above threshold) mode.<br><br>🐛 <b>Bug Fixes</b><br>Fixed Voting Sound Sync & Ghost Triggers.",
+  "notes": "<b>v1.1.7 Update Highlights</b><br><br>✨ <b>Smoother CJK Search</b><br>Optimized search logic to fix character decomposition and lag when typing in Korean (IME).<br><br>🐛 <b>UI Fixes</b><br>Fixed an issue where the trigger guide text was displayed in an incorrect location in Actor settings.",
   "critical": false,
   "announcement": {
     "id": "",
