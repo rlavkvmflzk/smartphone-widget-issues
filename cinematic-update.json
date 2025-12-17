@@ -1,7 +1,7 @@
 {
   "latestVersion": "1.1.6",
   "downloadUrl": "",
-  "notes": "Update: Cinematic Cut-ins v1.1.6\n\n✨ New Features\n- Advanced Formula Trigger: Added a new trigger type that allows for detailed condition settings using custom logic (e.g., d[0] == d[1]). This enables full support for systems with unique critical hit rules or specific dice combinations.\n- Text Support in Variations: You can now specify separate Main/Sub text for each image variation. This allows for context-specific messages (e.g., displaying \"NICE!\" for a normal hit variation and \"PERFECT!\" for a critical hit variation).\n- Resource Trigger Modes: Resource triggers are no longer limited to dropping below a value. Added a \"Mode\" selection to support Increase (Above threshold) conditions.\n\n🐛 Bug Fixes\n- Voting Sound Sync: Fixed an issue where the participation confirmation sound during All-Out Attack voting was not playing correctly for other players.\n- Ghost Triggers: Fixed a bug where deleting the last trigger rule would cause it to reappear.",
+  "notes": "<b>v1.1.6 Update Highlights</b><br><br>✨ <b>Advanced Formula Trigger</b><br>Custom logic support (e.g. d[0] == d[1]) for complex rules.<br><br>✨ <b>Variation Text Support</b><br>You can now customize text for each random image variation.<br><br>✨ <b>Resource Trigger Mode</b><br>Added 'Increase' (Above threshold) mode.<br><br>🐛 <b>Bug Fixes</b><br>Fixed Voting Sound Sync & Ghost Triggers.",
   "critical": false,
   "announcement": {
     "id": "",
