@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.1.7",
-  "downloadUrl": "",
-  "notes": "<b>v1.1.7 Update Highlights</b><br><br>✨ <b>Smoother CJK Search</b><br>Optimized search logic to fix character decomposition and lag when typing in Korean (IME).<br><br>🐛 <b>UI Fixes</b><br>Fixed an issue where the trigger guide text was displayed in an incorrect location in Actor settings.",
+  "latestVersion": "1.6.2",
+  "downloadUrl": "", 
+  "notes": "<b>v1.6.2 Update Highlights</b><br><br>✨ <b>New Features</b><br>- <b>Update Notifier:</b> Added in-game notifications for new version updates.<br>- <b>Data Management:</b> Backup and restore all smartphone data via the Settings app.<br>- <b>Broken Screen Effect:</b> GMs can now 'crack' player screens for immersive roleplay.<br><br>🐛 <b>Bug Fixes</b><br>- <b>Time Sync:</b> Fixed message timestamps not updating in real-time.<br>- <b>Activation Logic:</b> Carrier messages now correctly send only for the world's first device.<br><br>🛠 <b>UI Polish</b><br>- <b>Cleaner Layout:</b> Refined Device Management by consolidating menus into a sleek '...' button.",
   "critical": false,
   "announcement": {
     "id": "",
