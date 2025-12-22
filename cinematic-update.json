@@ -1,12 +1,12 @@
 {
   "latestVersion": "1.2.0",
   "downloadUrl": "",
-  "notes": "<b>📢 Major Update: Cinematic Cut-ins v1.2.0</b><br><br>🎨 <b>Custom Assets & Freedom</b><br>- <b>Unlimited Creativity:</b> Upload your own Images or Videos (WebM/MP4) to Background and Overlay layers.<br>- <b>Video Avatars:</b> Full support for video files as character portraits.<br>- <b>Custom Duration:</b> Take full control over how long animations stay on screen.<br><br>🤝 <b>Interaction & Collaboration</b><br>- <b>Interaction Prompts:</b> GMs can now send 'Ready' cues to specific players for perfectly timed manual triggers.<br>- <b>Skip Function:</b> Players can now skip animations with a single click if the action gets too crowded.<br><br>✨ <b>New Stylish Themes</b><br>- <b>Arcane (Group):</b> A mystical magic-circle theme for party finishers.<br>- <b>Blossom & Slash:</b> Added elegant floral and sharp diagonal personal styles.<br><br>⚙️ <b>Improvements & Fixes</b><br>- Resource triggers now support absolute numbers (e.g., HP < 10) along with percentages.<br>- Fixed timing desync in Scope theme and Arcane circle effects.<br>- Fixed <b>Korean (KO) localization</b> display issues in certain UI elements.",
+  "notes": "<b>📢 Major Update: Cinematic Cut-ins v1.2.0</b><br><br>🎨 <b>Custom Assets & Freedom</b><br>- <b>Unlimited Creativity:</b> Upload your own Images or Videos (WebM/MP4) to Background and Overlay layers.<br>- <b>Video Avatars:</b> Full support for video files as character portraits. Bring your heroes to life!<br>- <b>Custom Duration:</b> Take full control over how long animations stay on screen.<br><br>🤝 <b>Interactive Cues & Collaboration</b><br>- <b>Interactive Cues:</b> GMs can now send 'Ready' signals to specific players for perfectly timed manual triggers.<br>- <b>Skip Function:</b> Players can now skip animations with a single click if the action gets too crowded.<br><br>✨ <b>New Stylish Themes</b><br>- <b>Arcane (Group):</b> A mystical magic-circle theme for party finishers.<br>- <b>Blossom & Slash:</b> Added elegant floral and sharp diagonal personal styles.<br><br>⚙️ <b>Improvements & Fixes</b><br>- Resource triggers now support absolute numbers (e.g., HP < 10) along with percentages.<br>- Fixed timing desync in Scope theme and Arcane circle effects.<br>- Fixed <b>Korean (KO) localization</b> display issues in certain UI elements.",
   "critical": false,
   "announcement": {
     "id": "v120-release-notice",
     "show": true,
-    "title": "🎬 v1.2.0 Major Update is Here!",
-    "content": "Custom Assets, Interaction Prompts, and New Themes have been added. Design your own cinematic moments and collaborate with your players! Check the patch notes for details."
+    "title": "🎬 v1.2.0: The 'Freedom & Collaboration' Update!",
+    "content": "Unlock unlimited creativity with Custom Assets and sync with your players using Interactive Cues! Check the patch notes for full details."
   }
 }
