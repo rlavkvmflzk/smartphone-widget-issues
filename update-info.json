@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.6.3",
+  "latestVersion": "1.6.4",
   "downloadUrl": "", 
-  "notes": "<b>v1.6.3 Update: Compatibility Fix</b><br><br>🛠 <b>Foundry v12 Fixes</b><br>- Fixed a crash when adding phone patterns or importing data on v12.<br><br>🔄 <b>Recent Hotfixes (v1.6.2.1)</b><br>- <b>Smart Menu:</b> Management menus now open upward near the screen edge.<br>- <b>UI Alignment:</b> Fixed '...' button alignment in the Device Management list.<br><br>✨ <b>v1.6.2 Highlights</b><br>- <b>Update Notifier:</b> Internal alerts for new versions.<br>- <b>Data Management:</b> Export/Restore all data via JSON.<br>- <b>Broken Screen:</b> GMs can now 'crack' player screens for RP.",
+  "notes": "<b>v1.6.4 Update: Critical Fixes & Sync</b><br><br>🛠 <b>Foundry v12 Fix:</b> Fixed a critical crash when adding phone patterns or importing data on V12.<br><br>⚠️ <b>Version Sync:</b> If you experienced versioning issues recently, this update will reset your update tracking to ensure everything is synced correctly.<br><br>✨ <b>New Features (v1.6.2):</b><br>- <b>Data Management:</b> Export/Restore all data via JSON in Settings.<br>- <b>Broken Screen:</b> GMs can now 'crack' screens in Device Management.<br><br>🐛 <b>Bug Fixes:</b> Fixed real-time message timestamps and activation message spam.",
   "critical": false,
   "announcement": {
     "id": "",
