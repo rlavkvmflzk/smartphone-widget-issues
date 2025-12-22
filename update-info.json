@@ -1,7 +1,7 @@
 {
   "latestVersion": "1.6.4",
   "downloadUrl": "", 
-  "notes": "<b>v1.6.4 Update: Critical Fixes & Sync</b><br><br>🛠 <b>Foundry v12 Fix:</b> Fixed a critical crash when adding phone patterns or importing data on V12.<br><br>⚠️ <b>Version Sync:</b> If you experienced versioning issues recently, this update will reset your update tracking to ensure everything is synced correctly.<br><br>✨ <b>New Features (v1.6.2):</b><br>- <b>Data Management:</b> Export/Restore all data via JSON in Settings.<br>- <b>Broken Screen:</b> GMs can now 'crack' screens in Device Management.<br><br>🐛 <b>Bug Fixes:</b> Fixed real-time message timestamps and activation message spam.",
+  "notes": "<b>v1.6.4 Update: Critical Fixes & Sync</b><br><br>🛠 <b>Foundry v12 Fix:</b> Fixed a critical crash where adding phone patterns or importing data would fail on V12. The system now correctly identifies input fields across both v12 and v13 versions.<br><br>⚠️ <b>Version Sync:</b> Internal version tracking has been synchronized. This update will automatically reset update flags once to ensure your module is correctly aligned with the official release track.",
   "critical": false,
   "announcement": {
     "id": "",
