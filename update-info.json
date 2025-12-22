@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.6.8",
+  "latestVersion": "1.6.3",
   "downloadUrl": "", 
-  "notes": "This major update brings complete independence to the module, introduces the all-new Gallery and Macro apps, and marks the official release of the Scanner App!",
+  "notes": "<b>v1.6.3 Update: Compatibility Fix</b><br><br>🛠 <b>Foundry v12 Fixes</b><br>- Fixed a crash when adding phone patterns or importing data on v12.<br><br>🔄 <b>Recent Hotfixes (v1.6.2.1)</b><br>- <b>Smart Menu:</b> Management menus now open upward near the screen edge.<br>- <b>UI Alignment:</b> Fixed '...' button alignment in the Device Management list.<br><br>✨ <b>v1.6.2 Highlights</b><br>- <b>Update Notifier:</b> Internal alerts for new versions.<br>- <b>Data Management:</b> Export/Restore all data via JSON.<br>- <b>Broken Screen:</b> GMs can now 'crack' player screens for RP.",
   "critical": false,
   "announcement": {
     "id": "",
