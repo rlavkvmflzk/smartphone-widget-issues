@@ -1,12 +1,12 @@
 {
   "latestVersion": "1.2.1",
   "downloadUrl": "",
-  "notes": "<b>📢 Hotfix: Cinematic Cut-ins v1.2.1</b><br><br>🛠️ <b>UI & CSS Fixes</b><br>- <b>v12 Border Fix:</b> Resolved an issue where character portraits displayed unwanted borders in Foundry v12.<br>- <b>Text Alignment:</b> Fixed a CSS bug where button text was not properly centered or aligned in certain themes.<br>- <b>General Polish:</b> Minor layout adjustments for better stability across different versions.",
+  "notes": "<b>📢 Update: Cinematic Cut-ins v1.2.1 (Hotfix)</b><br><br>🛠️ <b>1.2.1 Hotfixes</b><br>- <b>v12 Character Border Fix:</b> Removed unwanted borders around character illustrations in Foundry v12.<br>- <b>Config Window Button Alignment:</b> Fixed a layout issue where buttons in the configuration panels were not properly aligned.",
   "critical": false,
   "announcement": {
     "id": "v121-hotfix-notice",
     "show": true,
     "title": "🛠️ v1.2.1 Hotfix Released",
-    "content": "We've fixed the character border issues in v12 and improved button text alignment. Please update for the most stable experience!"
+    "content": "Fixed character border issues in v12 and improved configuration window button layout. Please update for the best experience!"
   }
 }
