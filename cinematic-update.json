@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.6.2.1",
-  "downloadUrl": "", 
-  "notes": "<b>v1.6.2.1 Hotfix & v1.6.2 Highlights</b><br><br>🛠 <b>Hotfixes</b><br>- <b>Smart Menu:</b> Management menus now open upward near the screen edge to prevent clipping.<br>- <b>UI Alignment:</b> Fixed '...' button alignment in the Device Management list.<br><br>✨ <b>New Features (v1.6.2)</b><br>- <b>Update Notifier:</b> Internal alerts for new module versions.<br>- <b>Data Management:</b> Export and restore all smartphone data via JSON files.<br>- <b>Broken Screen:</b> GMs can now 'crack' player screens for immersive roleplay.<br><br>🐛 <b>Bug Fixes (v1.6.2)</b><br>- <b>Time Sync:</b> Fixed message timestamps not updating in real-time.<br>- <b>Activation Logic:</b> Carrier messages now send only for the world's very first device.",
+  "latestVersion": "1.1.7",
+  "downloadUrl": "",
+  "notes": "<b>📢 Update: Cinematic Cut-ins v1.1.7</b><br><br>✨ <b>Improvements</b><br>- <b>Smoother CJK Search:</b> Fixed an issue where Korean (and other IME-based languages) input in the Control Panel search bar would decompose characters or require a spacebar press. The search logic is now optimized for immediate responsiveness.<br><br>🐛 <b>Bug Fixes</b><br>- <b>Trigger Guide UI:</b> Fixed a layout issue where the trigger configuration help text was displayed in an incorrect or duplicate location within the Actor settings.",
   "critical": false,
   "announcement": {
     "id": "",
