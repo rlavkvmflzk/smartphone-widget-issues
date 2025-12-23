@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.2.1",
+  "latestVersion": "1.2.2",
   "downloadUrl": "",
-  "notes": "<b>📢 Update: Cinematic Cut-ins v1.2.1 (Hotfix)</b><br><br>🛠️ <b>1.2.1 Hotfixes</b><br>- <b>v12 Character Border Fix:</b> Removed unwanted borders around character illustrations in Foundry v12.<br>- <b>Config Window Button Alignment:</b> Fixed a layout issue where buttons in the configuration panels were not properly aligned.",
+  "notes": "<b>📢 Update: Cinematic Cut-ins v1.2.2</b><br><br>✨ <b>Screen Aspect Settings</b><br>- <b>New Default:</b> Changed to Letterbox to ensure consistent composition for all players.<br>- <b>Split Config:</b> Set screen modes independently for Personal and Group cut-ins.<br>- <b>Adaptive Stretch:</b> Fill your screen without distortion (available in settings).<br><br>🐛 <b>Bug Fixes</b><br>- <b>Ghosting Fix:</b> Previous images will no longer overlap on new cut-ins.<br>- <b>Style Cleanup:</b> Strict CSS background reset during media transitions.",
   "critical": false,
   "announcement": {
-    "id": "v121-hotfix-notice",
+    "id": "v122-aspect-and-ghost-fix",
     "show": true,
-    "title": "🛠️ v1.2.1 Hotfix Released",
-    "content": "Fixed character border issues in v12 and improved configuration window button layout. Please update for the best experience!"
+    "title": "✨ v1.2.2 Update: Screen Modes & Bug Fixes",
+    "content": "The default screen mode is now 'Cinema' to keep the GM's composition consistent. You can change this and set independent ratios for Single/Group cut-ins in the settings. The previous image ghosting bug is also fixed!"
   }
 }
