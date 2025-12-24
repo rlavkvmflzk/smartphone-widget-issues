@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.2.2",
+  "latestVersion": "1.2.2.1",
   "downloadUrl": "",
-  "notes": "<b>📢 Update: Cinematic Cut-ins v1.2.2</b><br><br>✨ <b>Screen Aspect Settings</b><br>- <b>New Default:</b> Changed to Letterbox to ensure consistent composition for all players.<br>- <b>Split Config:</b> Set screen modes independently for Personal and Group cut-ins.<br>- <b>Adaptive Stretch:</b> Fill your screen without distortion (available in settings).<br><br>🐛 <b>Bug Fixes</b><br>- <b>Ghosting Fix:</b> Previous images will no longer overlap on new cut-ins.<br>- <b>Style Cleanup:</b> Strict CSS background reset during media transitions.",
+  "notes": "<b>📢 Update: Cinematic Cut-ins v1.2.2.1 (Hotfix)</b><br><br>🛠️ <b>1.2.2.1 Hotfixes</b><br>- <b>Module Conflict Fix:</b> Resolved a styling conflict (specifically with 'Path of War') where the actor list in the Control Panel would not appear. The list now loads correctly regardless of other modules.",
   "critical": false,
   "announcement": {
-    "id": "v122-aspect-and-ghost-fix",
+    "id": "v1221-conflict-fix",
     "show": true,
-    "title": "✨ v1.2.2 Update: Screen Modes & Bug Fixes",
-    "content": "The default screen mode is now 'Cinema' to keep the GM's composition consistent. You can change this and set independent ratios for Single/Group cut-ins in the settings. The previous image ghosting bug is also fixed!"
+    "title": "🛠️ v1.2.2.1 Hotfix Released",
+    "content": "Fixed an issue where the actor list wouldn't show up due to conflicts with other modules (Path of War, etc.). Please update!"
   }
 }
