@@ -1,12 +1,12 @@
 {
   "latestVersion": "1.7.1",
   "downloadUrl": "", 
-  "notes": "<b>v1.7.1 Update: Weather App Fixes</b><br><br>🐛 <b>Bug Fixes:</b><br>• <b>Weather Unit Conversion:</b> Fixed an issue where temperature values were not converting correctly between Celsius (°C) and Fahrenheit (°F) when using the internal weather generation source. The display now accurately reflects your selected unit preference.<br><br>✨ <b>New Features:</b><br>• <b>Weather Settings Reset:</b> Added a <i>'Reset to Defaults'</i> button within the Season Manager. If your custom season data becomes corrupted, you can now easily restore default values via an Action Sheet.<br><br><hr>🚀 <b>Recently in v1.7.0:</b><br>• <b>Weather App:</b> Dynamic weather generation & Scene sync.<br>• <b>Home Widgets:</b> Clock, Calendar, Bio-Monitor, Photo Frame.<br>• <b>Search Widget:</b> Unified search for apps/contacts/messages.",
+  "notes": "<b>v1.7.1 Update: Weather App Fixes</b><br><br>🐛 <b>Bug Fixes:</b><br>• <b>Weather Unit Conversion:</b> Fixed an issue where temperature values were not converting correctly between Celsius (°C) and Fahrenheit (°F) when using the internal weather generation source. This fix applies to both the <b>Main App Display</b> and the <b>Season Manager</b>, ensuring accurate values immediately upon switching units.<br><br>✨ <b>New Features:</b><br>• <b>Weather Settings Reset:</b> Added a <i>'Reset to Defaults'</i> button within the Season Manager. If your custom season data becomes corrupted, you can now easily restore default values via an Action Sheet.<br><br><hr>🚀 <b>Recently in v1.7.0:</b><br>• <b>Weather App:</b> Dynamic weather generation & Scene sync.<br>• <b>Home Widgets:</b> Clock, Calendar, Bio-Monitor, Photo Frame.<br>• <b>Search Widget:</b> Unified search for apps/contacts/messages.",
   "critical": false,
   "announcement": {
     "id": "v1.7.1-release",
     "show": true,
     "title": "📱 Smartphone v1.7.1 Update",
-    "content": "<p><b>Smartphone Widget v1.7.1 is now available.</b></p><p>This update addresses issues with the Weather App temperature display and adds safety features for settings.</p><br><ul><li><b>🐛 Unit Conversion Fix:</b> Internal weather source now correctly handles C/F conversion.</li><li><b>✨ Settings Reset:</b> Added a button to reset Weather/Season settings to defaults via an Action Sheet.</li></ul>"
+    "content": "<p><b>Smartphone Widget v1.7.1 is now available.</b></p><p>This update addresses temperature display issues and adds safety features for settings.</p><br><ul><li><b>🐛 Unit Conversion Fix:</b> Corrected C/F conversion logic for both the main app display and settings menus.</li><li><b>✨ Settings Reset:</b> Added a button to reset Weather/Season settings to defaults via an Action Sheet.</li></ul>"
   }
 }
