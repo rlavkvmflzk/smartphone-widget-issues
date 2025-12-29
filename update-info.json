@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.6.4",
+  "latestVersion": "1.7.0.1",
   "downloadUrl": "", 
-  "notes": "<b>v1.6.4 Update: Critical Fixes & Sync</b><br><br>🛠 <b>Foundry v12 Fix:</b> Fixed a critical crash where adding phone patterns or importing data would fail on V12. The system now correctly identifies input fields across both v12 and v13 versions.<br><br>⚠️ <b>Version Sync:</b> Internal version tracking has been synchronized. This update will automatically reset update flags once to ensure your module is correctly aligned with the official release track.",
+  "notes": "<b>v1.7.0.1 Update: Weather App & Home Widgets</b><br><br>🚀 <b>Major Features (v1.7.0):</b><br>☁️ <b>Weather App:</b> Generates dynamic weather and automatically syncs Rain/Snow/Fog effects to the Scene. Supports <i>Simple Weather</i> & <i>Simple Timekeeping</i>.<br>🧩 <b>Home Widgets:</b> Place interactive widgets (Clock, Calendar, Bio-Monitor, Weather, Photo Frame, Bank Card) on your home screen.<br>🔍 <b>Search Widget:</b> Quickly find Apps, Contacts, and Messages.<br>🎨 <b>Fantasy Frames:</b> Added 'Arcane Crystal' and 'Dragon Slayer' frames.<br><br>🛠 <b>1.7.0.1 Hotfixes:</b><br>• Fixed text wrapping issues in the Wide Weather Widget.<br>• Adjusted Bio-Monitor settings UI close button style.",
   "critical": false,
   "announcement": {
-    "id": "",
-    "show": false,
-    "title": "",
-    "content": ""
+    "id": "v1.7.0-release",
+    "show": true,
+    "title": "🚀 Smartphone v1.7.0: Weather & Widgets",
+    "content": "<p><b>Hello! Smartphone Widget v1.7.0 is now available.</b></p><p>This update introduces the <b>Weather App</b>, interactive <b>Home Screen Widgets</b>, and new <b>Fantasy Frames</b>.</p><br><ul><li><b>☁️ Weather App:</b> Generates dynamic weather based on seasons and automatically syncs effects to the current Scene.</li><li><b>🧩 Home Screen Widgets:</b> Customize your screen with Clock, Calendar, Bio-Monitor, Weather, Photo Frame, or Bank Card widgets.</li><li><b>🔍 Unified Search Widget:</b> Search for Apps, Contacts, and Message History directly from the home screen.</li><li><b>🎨 New Fantasy Frames:</b> 'Arcane Crystal' and 'Dragon Slayer' added.</li></ul><br><p>Check the full patch notes on Patreon!</p>"
   }
 }
