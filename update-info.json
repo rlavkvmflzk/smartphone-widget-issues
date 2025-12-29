@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.0.1",
+  "latestVersion": "1.7.1",
   "downloadUrl": "", 
-  "notes": "<b>v1.7.0.1 Update: Weather App & Home Widgets</b><br><br>🚀 <b>Major Features (v1.7.0):</b><br>☁️ <b>Weather App:</b> Generates dynamic weather and automatically syncs Rain/Snow/Fog effects to the Scene. Supports <i>Simple Weather</i> & <i>Simple Timekeeping</i>.<br>🧩 <b>Home Widgets:</b> Place interactive widgets (Clock, Calendar, Bio-Monitor, Weather, Photo Frame, Bank Card) on your home screen.<br>🔍 <b>Search Widget:</b> Quickly find Apps, Contacts, and Messages.<br>🎨 <b>Fantasy Frames:</b> Added 'Arcane Crystal' and 'Dragon Slayer' frames.<br><br>🛠 <b>1.7.0.1 Hotfixes:</b><br>• Fixed text wrapping issues in the Wide Weather Widget.<br>• Adjusted Bio-Monitor settings UI close button style.",
+  "notes": "<b>v1.7.1 Update: Weather App Fixes</b><br><br>🐛 <b>Bug Fixes:</b><br>• <b>Weather Unit Conversion:</b> Fixed an issue where temperature values were not converting correctly between Celsius (°C) and Fahrenheit (°F) when using the internal weather generation source. The display now accurately reflects your selected unit preference.<br><br>✨ <b>New Features:</b><br>• <b>Weather Settings Reset:</b> Added a <i>'Reset to Defaults'</i> button within the Season Manager. If your custom season data becomes corrupted, you can now easily restore default values via an Action Sheet.<br><br><hr>🚀 <b>Recently in v1.7.0:</b><br>• <b>Weather App:</b> Dynamic weather generation & Scene sync.<br>• <b>Home Widgets:</b> Clock, Calendar, Bio-Monitor, Photo Frame.<br>• <b>Search Widget:</b> Unified search for apps/contacts/messages.",
   "critical": false,
   "announcement": {
-    "id": "v1.7.0-release",
+    "id": "v1.7.1-release",
     "show": true,
-    "title": "🚀 Smartphone v1.7.0: Weather & Widgets",
-    "content": "<p><b>Hello! Smartphone Widget v1.7.0 is now available.</b></p><p>This update introduces the <b>Weather App</b>, interactive <b>Home Screen Widgets</b>, and new <b>Fantasy Frames</b>.</p><br><ul><li><b>☁️ Weather App:</b> Generates dynamic weather based on seasons and automatically syncs effects to the current Scene.</li><li><b>🧩 Home Screen Widgets:</b> Customize your screen with Clock, Calendar, Bio-Monitor, Weather, Photo Frame, or Bank Card widgets.</li><li><b>🔍 Unified Search Widget:</b> Search for Apps, Contacts, and Message History directly from the home screen.</li><li><b>🎨 New Fantasy Frames:</b> 'Arcane Crystal' and 'Dragon Slayer' added.</li></ul><br><p>Check the full patch notes on Patreon!</p>"
+    "title": "📱 Smartphone v1.7.1 Update",
+    "content": "<p><b>Smartphone Widget v1.7.1 is now available.</b></p><p>This update addresses issues with the Weather App temperature display and adds safety features for settings.</p><br><ul><li><b>🐛 Unit Conversion Fix:</b> Internal weather source now correctly handles C/F conversion.</li><li><b>✨ Settings Reset:</b> Added a button to reset Weather/Season settings to defaults via an Action Sheet.</li></ul>"
   }
 }
