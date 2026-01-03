@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.3.0",
+  "latestVersion": "1.3.1",
   "downloadUrl": "",
-  "notes": "<b>📢 Cinematic Cut-ins v1.3.0: Layers & Scene Director</b><br><br>🎨 <b>Dynamic Layer System</b><br>- Completely rebuilt rendering engine.<br>- <b>Layer Manager:</b> Stack assets with Z-Index, Blend Modes, Rotation, and Mirroring.<br><br>🎥 <b>Scene Director & Automation</b><br>- <b>Scenes Tab:</b> Create standalone effects without Actors.<br>- <b>Combat Events:</b> Auto-trigger cut-ins on Battle Start, Victory, or specific Rounds.<br><br>✨ <b>New Themes</b><br>- <b>Legion (Group):</b> Sci-Fi Tactical HUD style.<br>- <b>Personal:</b> Glitch, Dash, Runes.<br><br>⚙️ <b>Quality of Life</b><br>- <b>Editor Pause:</b> Pause preview to fine-tune assets.<br>- <b>Round Logic:</b> Set Actor triggers for specific rounds only.<br>- <b>Visual Fixes:</b> Fixed lingering letterbox bars.",
+  "notes": "<b>📢 Cinematic Cut-ins v1.3.1</b><br><br>🛠 <b>Core Fixes</b><br>- <b>Layer Manager Logic:</b> Fixed legacy data issues preventing layer addition/deletion.<br>- <b>Animation Preloading:</b> Fixed scenes flashing abruptly when no main character image is used.<br><br>🎨 <b>Theme Adjustments</b><br>- <b>Preview Rendering:</b> Fixed invisible patterns in Impact/Phantom themes during preview.<br>- <b>Runes Theme:</b> Fixed pattern misalignment when adjusting Y-position.<br>- <b>Impact Theme:</b> Corrected Z-Index stacking order.",
   "critical": false,
   "announcement": {
-    "id": "v130-layer-update",
+    "id": "v131-patch",
     "show": true,
-    "title": "🎉 v1.3.0 Major Update!",
-    "content": "The Layer System and Scene Director are finally here! Create complex scenes with Blend Modes and automate them with Combat Events. Check the Patch Notes for details!"
+    "title": "🛠 v1.3.1 Maintenance Patch",
+    "content": "This update resolves Layer Manager data issues, fixes visual bugs in Impact/Phantom/Runes themes, and improves scene preloading."
   }
 }
