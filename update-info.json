@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.2",
+  "latestVersion": "1.7.2.1",
   "downloadUrl": "", 
-  "notes": "<b>v1.7.2 Update</b><br>✨ <b>New Features:</b><br>• <b>Banking App PF2e Compatibility:</b> Enhanced integration with the PF2e system for a seamless banking experience.<br>• <b>New Presets:</b> Added various new configuration presets to help you set up your widget instantly.<br><br><hr>🚀 <b>Recently in v1.7.1:</b><br>• <b>Weather App:</b> Fixed C/F conversion logic and added 'Reset to Defaults'.<br>• <b>CSS Isolation:</b> Resolved style leakage in the PF2e Compendium Browser.",
+  "notes": "<b>v1.7.2.1 Hotfix & Update</b><br><br>✨ <b>PF2e System Support:</b><br>• <b>Gacha App:</b> Fixed an issue where currency was not correctly deducted or rewarded in the PF2e system.<br>• <b>Banking App:</b> Added seamless integration with PF2e system currency.<br><br>✨ <b>New Features:</b><br>• <b>Presets:</b> Added various new configuration presets for quick setup.",
   "critical": false,
   "announcement": {
-    "id": "v1.7.2-release",
+    "id": "v1.7.2.1-fix",
     "show": true,
-    "title": "📱 Smartphone v1.7.2 Update",
-    "content": "<p><b>Smartphone Widget v1.7.2 is now available.</b></p><p>This update brings PF2e compatibility to the Banking App and introduces new configuration presets.</p><br><ul><li><b>✨ Banking App:</b> Added PF2e system compatibility.</li><li><b>✨ Presets:</b> New presets for quick and easy setup.</li></ul>"
+    "title": "📱 Smartphone v1.7.2.1 Update",
+    "content": "<p><b>Smartphone Widget v1.7.2.1 is now available.</b></p><p>This hotfix completes PF2e system support for the Gacha App.</p><br><ul><li><b>✨ Gacha App:</b> Now correctly handles PF2e coin deduction and rewards.</li><li><b>✨ Banking App:</b> PF2e compatibility added.</li><li><b>✨ Presets:</b> New configuration presets included.</li></ul>"
   }
 }
