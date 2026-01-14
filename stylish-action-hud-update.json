@@ -1,0 +1,13 @@
+{
+    "latestVersion": "1.0.1",
+    "critical": false,
+    "notes": "🔧 HUD Layout Standardization\n• Refactored HUD positioning to use a standardized anchor-based pixel system.\n• Removed legacy fallback logic for percentage-based units to improve performance and consistency.\n• Updated default configuration values to align with the new positioning system.\n\n🆕 Update Notification System\n• Added a new update notifier that alerts GMs when a new version is available.\n• Includes support for viewing patch notes directly within Foundry VTT.\n• Added options to skip specific versions or view critical update warnings.",
+    "downloadUrl": "https://www.patreon.com/rlavkvmflzk",
+    "forceResetId": null,
+    "announcement": {
+        "show": false,
+        "id": "",
+        "title": "",
+        "content": ""
+    }
+}
