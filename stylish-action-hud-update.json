@@ -1,8 +1,8 @@
 {
     "latestVersion": "1.0.1",
     "critical": false,
-    "notes": "🔧 HUD Layout Standardization\n• Refactored HUD positioning to use a standardized anchor-based pixel system.\n• Removed legacy fallback logic for percentage-based units to improve performance and consistency.\n• Updated default configuration values to align with the new positioning system.\n\n🆕 Update Notification System\n• Added a new update notifier that alerts GMs when a new version is available.\n• Includes support for viewing patch notes directly within Foundry VTT.\n• Added options to skip specific versions or view critical update warnings.",
-    "downloadUrl": "https://www.patreon.com/rlavkvmflzk",
+    "notes": "📢 Update: Stylish Action HUD v1.0.1\n\n✨ New Features & Improvements\n*   **Layout Standardization:** Refactored layout to an anchor-based system, standardizing component positioning using pixels instead of percentages.\n*   **Snap Feature:** Added window snapping for easier HUD positioning.\n*   **Update Notification:** Added a new update notification system.\n\n🐛 Bug Fixes\n*   **PF2e Resource Recovery:** Fixed an issue where right-clicking resources in PF2e did not correctly recover them.\n*   **Global Macro Settings:** Fixed a bug where Global Macros could not be added in the settings menu.",
+    "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": false,
