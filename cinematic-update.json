@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.0",
+  "latestVersion": "1.4.1",
   "downloadUrl": "",
-  "notes": "<b>🎬 v1.4 Major Update: Combat Link & Masking</b><br><br>⚔️ <b>Combat Link (All-Out Attack)</b><br>- <b>Link Combat:</b> Automates Player Join, Initiative Rolls, and Battle Start sequence.<br><br>🎭 <b>Layer Masking</b><br>- <b>Shape Masks:</b> Crop layers into Circles, Ovals, or Diamonds.<br>- <b>Smart Crop:</b> Remove unwanted borders with Inset mode.<br>- <b>Image Masks:</b> Use custom images for Alpha Masking.<br><br>⚡ <b>Optimization</b><br>- <b>DOM Pooling:</b> Rewrote rendering engine to eliminate stuttering.<br>- <b>Sync:</b> Perfect Audio/Video synchronization.<br><br><hr><br>📢 <b>Notice: End of Early Access</b><br>Early Access concludes on <b>Jan 13th</b>. Access will expand to the Supporter Tier.<br><br>👀 <b>Coming Soon</b><br><b>📱 Smartphone Widget:</b> New \"ID Card App\" with physical door access.<br><b>⚔️ Stylish Action HUD:</b> Complete token HUD overhaul featuring flashy animated themes—including <b>Iron, SF, and Fantasy</b> styles. A brief video demonstration is attached!",
+  "notes": "<b>🐞 v1.4.1 Hotfix</b><br><br>⚔️ <b>All-Out Attack</b><br>- <b>Independent Positioning:</b> Main Title and Sub Title Y-axis positions can now be adjusted independently.<br>- <b>Preset Loading:</b> Fixed an issue where the selected Font was not correctly reflected in the dropdown when loading a preset.",
   "critical": false,
   "announcement": {
-    "id": "v140-update",
+    "id": "v141-hotfix",
     "show": true,
-    "title": "🎬 v1.4: Combat Link & Masking",
-    "content": "This update introduces Combat Link (Auto-Battle), Layer Masking, and a Rendering Engine overhaul. Early Access ends Jan 13th! Check the notes for details."
+    "title": "🐞 v1.4.1 Hotfix",
+    "content": "Fixed independent title positioning and preset font loading issues."
   }
 }
