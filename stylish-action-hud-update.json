@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.0.4",
+    "latestVersion": "1.0.4.1",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.0.4\n\n✨ New Features\n* **[PF2e] Spell Rank Tracking:** Added support for tracking Spell Ranks directly in the HUD.\n* **Quick Sheet Access:** Clicking the character image in the Action Menu now opens the Character Sheet.\n* **Layer Customization:** Added an option to place the HUD behind the Foundry Core UI.\n* **Visibility Control:** Added independent options for Party HUD and Action Menu to be visible only during combat or always.\n\n🛡️ Improvements\n* **Data Safety Mechanism:** Implemented a fail-safe to ignore corrupted item data, preventing the Action Menu from freezing.\n\n🐛 Bug Fixes\n* **Client Settings Sync:** Fixed a critical bug where a player's Action Menu scale settings would reset to the GM's values upon saving.\n* **[PF2e] Elemental Blast:** Fixed an issue where Elemental Blasts were not displaying correctly under Strikes.\n* **Free Mode Coordinates:** Fixed a bug where Party HUD coordinates would reset to (0,0) when changing settings in Free Mode.",
+    "notes": "📢 Update: Stylish Action HUD v1.0.4.1\n\n✨ New Features\n* **Token Image Toggle:** Added an option to display the Token image instead of the character Portrait in the Action Menu.\n\n🐛 Bug Fixes\n* **[PF2e] Elemental Blast:** Fixed an issue where hit modifiers were incorrectly displayed as hardcoded debug values (+0/-4/-8).\n* **[PF2e] Spell Slot Tracking:** Fixed a bug where spell slot tracking was not displaying correctly depending on the specific class data structure.\n* **Free Mode Coordinates (Final Fix):** Fully resolved the (0,0) reset issue caused by data compatibility with legacy versions (pre-anchor system).",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
-        "show": false,
-        "id": "",
-        "title": "",
-        "content": ""
+        "show": true,
+        "id": "v1.0.4.1-patch",
+        "title": "v1.0.4.1 Hotfix & New Feature",
+        "content": "Fixed Elemental Blast modifiers, Spell Slot tracking, and Free Mode coordinate issues. Added Token Image option."
     }
 }
