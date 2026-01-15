@@ -1,7 +1,7 @@
 {
-    "latestVersion": "1.0.3",
+    "latestVersion": "1.0.4",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.0.3\n\n✨ Improvements\n* **Center Anchor Support:** Added a center anchor to improve placement precision across various screen resolutions.\n* **Sidebar Safeguard:** Designated the right sidebar area as a non-placeable zone to prevent potential layout conflicts.\n\n🐛 Bug Fixes\n* **Free Mode Position Save:** Fixed an issue where position saving in Layout Edit Mode failed if the 'left/top' coordinates were manually adjusted in Free Mode.",
+    "notes": "📢 Update: Stylish Action HUD v1.0.4\n\n✨ New Features\n* **[PF2e] Spell Rank Tracking:** Added support for tracking Spell Ranks directly in the HUD.\n* **Quick Sheet Access:** Clicking the character image in the Action Menu now opens the Character Sheet.\n* **Layer Customization:** Added an option to place the HUD behind the Foundry Core UI.\n* **Visibility Control:** Added independent options for Party HUD and Action Menu to be visible only during combat or always.\n\n🛡️ Improvements\n* **Data Safety Mechanism:** Implemented a fail-safe to ignore corrupted item data, preventing the Action Menu from freezing.\n\n🐛 Bug Fixes\n* **Client Settings Sync:** Fixed a critical bug where a player's Action Menu scale settings would reset to the GM's values upon saving.\n* **[PF2e] Elemental Blast:** Fixed an issue where Elemental Blasts were not displaying correctly under Strikes.\n* **Free Mode Coordinates:** Fixed a bug where Party HUD coordinates would reset to (0,0) when changing settings in Free Mode.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
