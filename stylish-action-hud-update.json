@@ -1,7 +1,7 @@
 {
-    "latestVersion": "1.0.1",
+    "latestVersion": "1.0.3",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.0.1\n\n✨ New Features & Improvements\n*   **Layout Standardization:** Refactored layout to an anchor-based system, standardizing component positioning using pixels instead of percentages.\n*   **Snap Feature:** Added window snapping for easier HUD positioning.\n*   **Update Notification:** Added a new update notification system.\n\n🐛 Bug Fixes\n*   **PF2e Resource Recovery:** Fixed an issue where right-clicking resources in PF2e did not correctly recover them.\n*   **Global Macro Settings:** Fixed a bug where Global Macros could not be added in the settings menu.",
+    "notes": "📢 Update: Stylish Action HUD v1.0.3\n\n✨ Improvements\n* **Center Anchor Support:** Added a center anchor to improve placement precision across various screen resolutions.\n* **Sidebar Safeguard:** Designated the right sidebar area as a non-placeable zone to prevent potential layout conflicts.\n\n🐛 Bug Fixes\n* **Free Mode Position Save:** Fixed an issue where position saving in Layout Edit Mode failed if the 'left/top' coordinates were manually adjusted in Free Mode.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
