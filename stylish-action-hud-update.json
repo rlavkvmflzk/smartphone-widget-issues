@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.1.0",
+    "latestVersion": "1.1.1",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.1 (Early Access)\n\n✨ New Features\n* **UI & Layout:** Added Themed Collapse Button (matches active theme) and Individual Card Sizing (Width/Height).\n* **GM Tools:** Enhanced HUD hiding for specific tokens and 'Secret Attributes' (GM-only visibility) for resource tracking.\n* **Resource Tracking 2.0:** New display styles (Numeric/Text) and support for Custom Icons (FontAwesome/Images).\n* **System Enhancements:** [PF2e] Feats separation, expanded tracking (Speed, Hero Points, AC, Temp HP), and Spell DC display. [D&D 5e] Spell DC display.\n\n🐛 Bug Fixes\n* **Macros:** Fixed Compendium macro execution issues.\n* **Themes:** Fixed X/Y coordinate bugs in Glass, Fantasy, Cyberpunk, and Medieval themes.\n* **Settings:** Global settings no longer overwrite personal positioning overrides.",
+    "notes": "📢 Update: Stylish Action HUD v1.1.1\n\n🐛 Bug Fixes (v1.1.1)\n* **[dnd5e]** Fixed an issue where the 'Secret Attributes' feature was not functioning correctly.\n* **[Theme]** Resolved a visual glitch in the Iron theme where the skew effect was double-applied to boxes surrounding number and var/max attributes.\n\n✨ v1.1.0 Major Highlights (Previous)\n* **UI & Layout:** Added Themed Collapse Button and Individual Card Sizing (Width/Height).\n* **GM Tools:** Added 'Secret Attributes' for GM-only visibility and enhanced HUD hiding.\n* **Resource Tracking 2.0:** New display styles (Numeric/Text) and Custom Icon support.\n* **System Enhancements:** [PF2e] Feats separation, expanded tracking (Speed, AC, etc.). [D&D 5e] Spell DC display.",
     "downloadUrl": "https://www.patreon.com/posts/early-access-hud-148568838",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.1.0-early-access",
-        "title": "v1.1 Massive Update: Customization & GM Control",
-        "content": "New themed collapse buttons, individual card sizing, secret GM attributes, and enhanced PF2e/D&D5e support are now live!"
+        "id": "v1.1.1-hotfix",
+        "title": "v1.1.1 Update: System Fixes & Iron Theme Patch",
+        "content": "Fixed dnd5e Secret Attributes and Iron theme layout issues. (Includes v1.1.0 massive customization features!)"
     }
 }
