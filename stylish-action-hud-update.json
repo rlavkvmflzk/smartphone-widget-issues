@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.0.4.1",
+    "latestVersion": "1.1.0",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.0.4.1\n\n✨ New Features\n* **Token Image Toggle:** Added an option to display the Token image instead of the character Portrait in the Action Menu.\n\n🐛 Bug Fixes\n* **[PF2e] Elemental Blast:** Fixed an issue where hit modifiers were incorrectly displayed as hardcoded debug values (+0/-4/-8).\n* **[PF2e] Spell Slot Tracking:** Fixed a bug where spell slot tracking was not displaying correctly depending on the specific class data structure.\n* **Free Mode Coordinates (Final Fix):** Fully resolved the (0,0) reset issue caused by data compatibility with legacy versions (pre-anchor system).",
-    "downloadUrl": "",
+    "notes": "📢 Update: Stylish Action HUD v1.1 (Early Access)\n\n✨ New Features\n* **UI & Layout:** Added Themed Collapse Button (matches active theme) and Individual Card Sizing (Width/Height).\n* **GM Tools:** Enhanced HUD hiding for specific tokens and 'Secret Attributes' (GM-only visibility) for resource tracking.\n* **Resource Tracking 2.0:** New display styles (Numeric/Text) and support for Custom Icons (FontAwesome/Images).\n* **System Enhancements:** [PF2e] Feats separation, expanded tracking (Speed, Hero Points, AC, Temp HP), and Spell DC display. [D&D 5e] Spell DC display.\n\n🐛 Bug Fixes\n* **Macros:** Fixed Compendium macro execution issues.\n* **Themes:** Fixed X/Y coordinate bugs in Glass, Fantasy, Cyberpunk, and Medieval themes.\n* **Settings:** Global settings no longer overwrite personal positioning overrides.",
+    "downloadUrl": "https://www.patreon.com/posts/early-access-hud-148568838",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.0.4.1-patch",
-        "title": "v1.0.4.1 Hotfix & New Feature",
-        "content": "Fixed Elemental Blast modifiers, Spell Slot tracking, and Free Mode coordinate issues. Added Token Image option."
+        "id": "v1.1.0-early-access",
+        "title": "v1.1 Massive Update: Customization & GM Control",
+        "content": "New themed collapse buttons, individual card sizing, secret GM attributes, and enhanced PF2e/D&D5e support are now live!"
     }
 }
