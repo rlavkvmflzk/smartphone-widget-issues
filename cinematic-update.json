@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.5.1",
+  "latestVersion": "1.5.2",
   "downloadUrl": "",
-  "notes": "<b>🚀 v1.5.1 Improvements</b><br>- <b>PF2e Integration:</b> Added specific hooks (Attack, Damage, Critical) directly to Actor Trigger settings for better reliability.<br><br><b>🎬 v1.5.0 Major Update</b><br>✨ <b>New Themes</b><br>- <b>Typewriter:</b> Text-centric animation with typing SFX.<br>- <b>Yakuza:</b> Dramatic freeze-frame style with impact SFX.<br><br>⚔️ <b>Group Assault</b><br>- <b>Dragon Theme:</b> New explosive pop animation.<br>- <b>Speed Control:</b> Adjust pacing (0.5x - 2.0x).<br>- <b>Custom Button:</b> Rename the 'Join' button.<br><br>🔊 <b>Audio & Misc</b><br>- <b>Control:</b> Auto-Stop SFX & 'Keep Playing' option.<br>- <b>Global Line Breaks:</b> The &lt;br&gt; tag now works in all themes.",
+  "notes": "<b>🐛 v1.5.2 Improvements & Fixes</b><br><br>✨ <b>Improvements</b><br>- <b>Advanced Dice Formula:</b> Added support for accessing individual roll results in advanced formula triggers (e.g., r[0].total).<br><br>🐛 <b>Bug Fixes</b><br>- <b>All-Out Attack:</b> Fixed character rotation ignored during animation.<br>- <b>Legion Theme:</b> Fixed mirroring (flip) issue in character entry animation.",
   "critical": false,
   "announcement": {
-    "id": "v151-update",
+    "id": "v152-update",
     "show": true,
-    "title": "🚀 v1.5.1: PF2e Support & New Themes",
-    "content": "Added PF2e Actor Triggers (v1.5.1) and major v1.5.0 features: Typewriter/Yakuza themes, Audio controls, and Group Assault improvements."
+    "title": "🐛 v1.5.2: Improvement & Fixes",
+    "content": "Added individual roll support for Advanced Formulas and fixed rotation/mirroring bugs in All-Out Attack animations."
   }
 }
