@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.1.1",
+    "latestVersion": "1.1.2",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.1.1\n\n🐛 Bug Fixes (v1.1.1)\n* **[dnd5e]** Fixed an issue where the 'Secret Attributes' feature was not functioning correctly.\n* **[Theme]** Resolved a visual glitch in the Iron theme where the skew effect was double-applied to boxes surrounding number and var/max attributes.\n\n✨ v1.1.0 Major Highlights (Previous)\n* **UI & Layout:** Added Themed Collapse Button and Individual Card Sizing (Width/Height).\n* **GM Tools:** Added 'Secret Attributes' for GM-only visibility and enhanced HUD hiding.\n* **Resource Tracking 2.0:** New display styles (Numeric/Text) and Custom Icon support.\n* **System Enhancements:** [PF2e] Feats separation, expanded tracking (Speed, AC, etc.). [D&D 5e] Spell DC display.",
+    "notes": "📢 Update: Stylish Action HUD v1.1.2\n\n✨ New Features\n* **[PF2e]** Added 'Passives' tab in Action sub-menu. Passive abilities are now automatically listed.\n\n🔌 Compatibility\n* **Monk's Common Display:** Party HUD is now visible on Monk's Display. (Action Menu excluded due to structure).\n\n🎨 Theme Updates & Fixes\n* **[Iron]** Added horizontal scrolling for overflowing top tabs.\n* **[Cyberpunk]** Fixed missing styles on top navigation tabs.\n* **[Epic Fantasy]** Fixed text clipping issues in Spell tabs.\n\n✨ v1.1.0 Major Highlights (Previous)\n* **UI & Layout:** Added Individual Card Sizing (Width/Height) & Themed Collapse Button.\n* **GM Tools:** Added 'Secret Attributes' & enhanced HUD hiding.\n* **Resource Tracking:** New display styles (Numeric/Text) & Custom Icon support.",
     "downloadUrl": "https://www.patreon.com/posts/early-access-hud-148568838",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.1.1-hotfix",
-        "title": "v1.1.1 Update: System Fixes & Iron Theme Patch",
-        "content": "Fixed dnd5e Secret Attributes and Iron theme layout issues. (Includes v1.1.0 massive customization features!)"
+        "id": "v1.1.2-update",
+        "title": "v1.1.2 Update: Monk's Display & Theme Fixes",
+        "content": "Added Monk's Common Display support, PF2e Passives tab, and various theme fixes."
     }
 }
