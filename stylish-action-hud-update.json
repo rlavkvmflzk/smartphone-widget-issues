@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.1.2",
+    "latestVersion": "1.2.0",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.1.2\n\n✨ New Features\n* **[PF2e]** Added 'Passives' tab in Action sub-menu. Passive abilities are now automatically listed.\n\n🔌 Compatibility\n* **Monk's Common Display:** Party HUD is now visible on Monk's Display. (Action Menu excluded due to structure).\n\n🎨 Theme Updates & Fixes\n* **[Iron]** Added horizontal scrolling for overflowing top tabs.\n* **[Cyberpunk]** Fixed missing styles on top navigation tabs.\n* **[Epic Fantasy]** Fixed text clipping issues in Spell tabs.\n\n✨ v1.1.0 Major Highlights (Previous)\n* **UI & Layout:** Added Individual Card Sizing (Width/Height) & Themed Collapse Button.\n* **GM Tools:** Added 'Secret Attributes' & enhanced HUD hiding.\n* **Resource Tracking:** New display styles (Numeric/Text) & Custom Icon support.",
+    "notes": "📢 Update: Stylish Action HUD v1.2.0\n\n📦 Preset System (New)\n* **Configuration Sharing:** You can now Export/Import your HUD configurations (Action Menus, Macros, Bar settings). Share your setups with the community!\n\n🔒 Privacy & Customization\n* **Owner-Only Mode:** Added a 'Cyan Lock' 🔒 option. Track attributes visible only to the Owner and GM.\n* **Custom Tracking Sizes:** You can now adjust the size of tracking elements.",
     "downloadUrl": "https://www.patreon.com/posts/early-access-hud-148568838",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.1.2-update",
-        "title": "v1.1.2 Update: Monk's Display & Theme Fixes",
-        "content": "Added Monk's Common Display support, PF2e Passives tab, and various theme fixes."
+        "id": "v1.2.0-update",
+        "title": "🚀 v1.2 Update: Presets & Privacy",
+        "content": "Added Preset System (Config Sharing), Owner-Only Privacy Mode, and Custom Tracking Sizes."
     }
 }
