@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.5.2.2",
+  "latestVersion": "1.5.3",
   "downloadUrl": "",
-  "notes": "<b>🚑 v1.5.2.2 Hotfix</b><br><br>🐛 <b>Bug Fixes</b><br>- <b>All-Out Attack:</b> Fixed a critical error that occurred when starting Initiative while the \"Combat Link\" feature was enabled.",
+  "notes": "<b>✨ v1.5.3 Update</b><br><br>✨ <b>Improvements</b><br>- <b>Expanded Roll Support:</b> Added native support for systems that embed roll data directly into chat HTML (e.g., <b>13th Age</b>).<br>- <b>Analysis Dialog:</b> Updated to correctly parse and display data from these HTML-based rolls.",
   "critical": false,
   "announcement": {
-    "id": "v1522-hotfix",
+    "id": "v153-update",
     "show": true,
-    "title": "🚑 v1.5.2.2 Hotfix",
-    "content": "Fixed a critical error when starting Initiative with Combat Link enabled."
+    "title": "✨ v1.5.3 Update",
+    "content": "Added native support for systems with inline HTML rolls (e.g., 13th Age)."
   }
 }
