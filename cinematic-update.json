@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.5.2",
+  "latestVersion": "1.5.2.2",
   "downloadUrl": "",
-  "notes": "<b>🐛 v1.5.2 Improvements & Fixes</b><br><br>✨ <b>Improvements</b><br>- <b>Advanced Dice Formula:</b> Added support for accessing individual roll results in advanced formula triggers (e.g., r[0].total).<br><br>🐛 <b>Bug Fixes</b><br>- <b>All-Out Attack:</b> Fixed character rotation ignored during animation.<br>- <b>Legion Theme:</b> Fixed mirroring (flip) issue in character entry animation.",
+  "notes": "<b>🚑 v1.5.2.2 Hotfix</b><br><br>🐛 <b>Bug Fixes</b><br>- <b>All-Out Attack:</b> Fixed a critical error that occurred when starting Initiative while the \"Combat Link\" feature was enabled.",
   "critical": false,
   "announcement": {
-    "id": "v152-update",
+    "id": "v1522-hotfix",
     "show": true,
-    "title": "🐛 v1.5.2: Improvement & Fixes",
-    "content": "Added individual roll support for Advanced Formulas and fixed rotation/mirroring bugs in All-Out Attack animations."
+    "title": "🚑 v1.5.2.2 Hotfix",
+    "content": "Fixed a critical error when starting Initiative with Combat Link enabled."
   }
 }
