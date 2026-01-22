@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.2.0",
+    "latestVersion": "1.3.0.1",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.2.0\n\n📦 Preset System (New)\n* **Configuration Sharing:** You can now Export/Import your HUD configurations (Action Menus, Macros, Bar settings). Share your setups with the community!\n\n🔒 Privacy & Customization\n* **Owner-Only Mode:** Added a 'Cyan Lock' 🔒 option. Track attributes visible only to the Owner and GM.\n* **Custom Tracking Sizes:** You can now adjust the size of tracking elements.",
-    "downloadUrl": "https://www.patreon.com/posts/early-access-hud-148568838",
+    "notes": "📢 Update: Stylish Action HUD v1.3.0.1\n\n🐛 Hotfixes (v1.3.0.1)\n* **PF2e Scaling:** Fixed an issue where Badge Style size adjustment wasn't working.\n* **Visibility:** Fixed an issue where badges were hidden behind portraits on turn start.\n\n💾 Preset V2 (New)\n* **Per-Card Config:** Assign specific presets to individual cards (e.g., Fighter vs Wizard).\n\n🎨 Visuals & Dimensions\n* **Badge Style:** Modern look for attribute trackers.\n* **Global Dimensions:** Adjust X/Y size for all cards at once.",
+    "downloadUrl": "https://www.patreon.com/posts/YOUR_POST_ID_HERE",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.2.0-update",
-        "title": "🚀 v1.2 Update: Presets & Privacy",
-        "content": "Added Preset System (Config Sharing), Owner-Only Privacy Mode, and Custom Tracking Sizes."
+        "id": "v1.3.0.1-hotfix",
+        "title": "🚀 v1.3.0.1: Hotfixes & Preset V2",
+        "content": "Hotfixed PF2e scaling & visibility issues. Includes Preset V2, Badge Styles, and Global Dimensions."
     }
 }
