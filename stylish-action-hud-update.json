@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.3.0.1",
+    "latestVersion": "1.3.1",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.3.0.1\n\n🐛 Hotfixes (v1.3.0.1)\n* **PF2e Scaling:** Fixed an issue where Badge Style size adjustment wasn't working.\n* **Visibility:** Fixed an issue where badges were hidden behind portraits on turn start.\n\n💾 Preset V2 (New)\n* **Per-Card Config:** Assign specific presets to individual cards (e.g., Fighter vs Wizard).\n\n🎨 Visuals & Dimensions\n* **Badge Style:** Modern look for attribute trackers.\n* **Global Dimensions:** Adjust X/Y size for all cards at once.",
+    "notes": "📢 Update: Stylish Action HUD v1.3.1\n\n✨ New Features\n* **Custom Display Name:** Option to customize the Actor's name on the HUD.\n* **Macro Favorites:** Add Macros to Favorites for quick access.\n* **Status Positioning:** Adjust Status Icon and Effect positions.\n\n🛠 Improvements\n* **Macro Auto-Permission:** Automatically grants ownership when a player uses a macro.\n* **Manual Preset Apply:** Presets now require clicking 'Apply' to take effect.\n* **[PF2e] Spell Matching:** Improved logic for matching Spell Slots and DCs.\n\n🐛 Bug Fixes\n* **Status Dropdown:** Fixed World Status Effects list not showing.\n* **Layout Mode:** Fixed placeholders remaining on screen after cancel.",
     "downloadUrl": "https://www.patreon.com/posts/YOUR_POST_ID_HERE",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.3.0.1-hotfix",
-        "title": "🚀 v1.3.0.1: Hotfixes & Preset V2",
-        "content": "Hotfixed PF2e scaling & visibility issues. Includes Preset V2, Badge Styles, and Global Dimensions."
+        "id": "v1.3.1-update",
+        "title": "🚀 v1.3.1: QoL Updates & Bug Fixes",
+        "content": "Added Custom Names, Macro Favorites, and Auto-Permission. Improved Preset logic and fixed Status Dropdown & Layout bugs."
     }
 }
