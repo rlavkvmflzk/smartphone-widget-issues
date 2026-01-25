@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.2.2",
+  "latestVersion": "1.7.3.1",
   "downloadUrl": "", 
-  "notes": "<b>v1.7.2.2 Hotfix</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Banking App (PF2e):</b> Fixed an issue where character currency was not displaying correctly in the deposit interface.<br><br><hr>🚀 <b>Recently in v1.7.2:</b><br>• <b>Banking App:</b> Added full compatibility with the PF2e system.<br>• <b>New Presets:</b> Added various configuration presets.<br><br><hr>🚀 <b>Recently in v1.7.1:</b><br>• <b>Weather App:</b> Fixed C/F conversion and added 'Reset to Defaults'.<br>• <b>CSS Isolation:</b> Resolved style leakage in the PF2e Compendium Browser.",
+  "notes": "<b>v1.7.3.1 Hotfix</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Line Busy Safety:</b> Callers now receive a proper 'Busy' notification if the target is already in a call, preventing conflicts.<br>• <b>Privacy:</b> The busy message no longer reveals who the target is speaking with.<br><br><hr>🚀 <b>Recently in v1.7.3:</b><br>• <b>Sound Fixes:</b> Device-specific ringtones and dial tones now apply correctly and update in real-time.<br>• <b>Refactor:</b> Internal code cleanup and improved initialization flow for better stability.",
   "critical": false,
   "announcement": {
-    "id": "v1.7.2.2-release",
+    "id": "v1.7.3.1-release",
     "show": true,
-    "title": "📱 Smartphone v1.7.2.2 Hotfix",
-    "content": "<p><b>Smartphone Widget v1.7.2.2 is now available.</b></p><p>This hotfix resolves a display issue with PF2e character currency in the Banking App.</p><br><ul><li><b>🐛 Currency Fix:</b> Character funds now correctly appear on the deposit screen in PF2e systems.</li></ul>"
+    "title": "📱 Smartphone v1.7.3.1 Update",
+    "content": "<p><b>Smartphone Widget v1.7.3.1 is now available.</b></p><p>This update fixes sound settings and adds safeguards for simultaneous calls.</p><br><ul><li><b>📞 Line Busy:</b> Added a check for active calls. If you call someone who is already on the phone, you will now get a 'Busy' signal instead of errors.</li><li><b>🔊 Audio Fixes:</b> Fixed issues where custom sounds (ringtones/dial tones) were not applying or updating correctly.</li></ul>"
   }
 }
