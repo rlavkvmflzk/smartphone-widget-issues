@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.5.3",
+  "latestVersion": "1.5.5",
   "downloadUrl": "",
-  "notes": "<b>✨ v1.5.3 Update</b><br><br>✨ <b>Improvements</b><br>- <b>Expanded Roll Support:</b> Added native support for systems that embed roll data directly into chat HTML (e.g., <b>13th Age</b>).<br>- <b>Analysis Dialog:</b> Updated to correctly parse and display data from these HTML-based rolls.",
+  "notes": "<b>✨ v1.5.5 Update</b><br><br>✨ <b>New Features</b><br>- <b>Dice So Nice Integration:</b> Added a new setting to wait for Dice So Nice animations to finish before playing the Cinematic Cut-in.",
   "critical": false,
   "announcement": {
-    "id": "v153-update",
+    "id": "v155-update",
     "show": true,
-    "title": "✨ v1.5.3 Update",
-    "content": "Added native support for systems with inline HTML rolls (e.g., 13th Age)."
+    "title": "✨ v1.5.5 Update",
+    "content": "Added a new setting to wait for Dice So Nice animations to finish before playing the cut-in."
   }
 }
