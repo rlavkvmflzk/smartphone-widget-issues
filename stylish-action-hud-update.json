@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.3.1.1",
+    "latestVersion": "1.5.2",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.3.1.1\n\n🔥 Hotfix (v1.3.1.1)\n* **[DnD 5e] Consumables:** Fixed a critical issue where consumable items could not be used.\n\n✨ New Features (v1.3.1)\n* **Custom Display Name:** Option to customize the Actor's name on the HUD.\n* **Macro Favorites:** Add Macros to Favorites for quick access.\n* **Status Positioning:** Adjust Status Icon and Effect positions.\n\n🛠 Improvements\n* **Macro Auto-Permission:** Automatically grants ownership when a player uses a macro.\n* **Manual Preset Apply:** Presets now require clicking 'Apply' to take effect.\n* **[PF2e] Spell Matching:** Improved logic for matching Spell Slots and DCs.\n\n🐛 Bug Fixes\n* **Status Dropdown:** Fixed World Status Effects list not showing.\n* **Layout Mode:** Fixed placeholders remaining on screen after cancel.",
+    "notes": "📢 Update: Stylish Action HUD v1.5.2\n\n✨ New Features (v1.5.2)\n* **Split configuration permissions**: Added separate role thresholds for editing Tracking, Style/Layout, and Menu settings.\n* **Auto-populate Party HUD**: Automatically selects existing Player Characters for the Party HUD on new installs.\n* **Auto-add new PCs**: New PCs or actors gaining player ownership are now automatically added to the HUD.\n* **Default tracking seeding**: Automatically seeds default tracking attributes (like HP) and status effects suitable for the game system.\n\n🛠 Bug Fixes (v1.5.2)\n* **Fixed Layout Drift**: Resolved issue where HUD positions would drift or jump on screens with different aspect ratios.\n* **Sidebar Collision**: The HUD now respects sidebar boundaries and clamps its position to prevent overlapping.\n* **Screen Size Consistency**: Fixed position shift issues when moving between ultrawide and smaller monitors.\n* **Edit Mode Snapping**: Fixed containers incorrectly snapping to top-left when entering Layout Edit Mode.\n* **Flicker-Free Turns**: Turn changes no longer trigger a full DOM re-render, eliminating visual flicker.\n* **Actor Reset**: The Reset button now properly clears all actor-level flags and overrides.\n\n--- \n\n🎁 Earlier in v1.5.0\n* **Dynamic Portraits**: Character portraits can now react to Status Effects (Poisoned, Prone, Dead, etc.).\n* **Font Customization**: Customize Header and Body fonts independently with live previews.\n* **Macro Description Editing**: Right-click any macro in the Action Menu to customize its tooltip flavor text.\n* **Per-Actor Card Scale**: Adjust individual character card sizes (e.g., 0.6x for familiars).\n* **PF2e Enhancements**: Dynamically tracks all available movement speeds for Pathfinder 2e actors.\n* **Searchable Attributes**: The attribute selection dropdown is now fully searchable and sorted.",
     "downloadUrl": "https://www.patreon.com/posts/YOUR_POST_ID_HERE",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.3.1.1-update",
-        "title": "🚀 v1.3.1.1: Hotfix & QoL Updates",
-        "content": "Hotfixed DnD 5e Consumables. Includes Custom Names, Macro Favorites, and Auto-Permission."
+        "id": "v1.5.2-update",
+        "title": "🚀 v1.5.2: Permissions & Layout Stability",
+        "content": "Hotfixed layout drift and added split permissions. Includes v1.5.0 features: Dynamic Portraits, Font Customization, and Macro Editing!"
     }
 }
