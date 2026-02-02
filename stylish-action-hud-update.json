@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.5.4",
+    "latestVersion": "1.5.6",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.5.4\n\n✨ New Features (v1.5.4)\n* **Quick Action Menu Positioning (Long-press Drag)**: You can now reposition the Action Menu without entering Layout Mode. Simply long-press (hold for 0.4s) anywhere on the Action Menu to drag it. Releasing it will automatically save the new position.\n\n🛠 Bug Fixes (v1.5.4)\n* **Status Effect Settings**: Fixed a bug where Animation and Blend Mode dropdowns were empty in the Status Effects configuration tab.\n* **Layout Mode Exit Fix**: Resolved a critical issue where HUD elements remained draggable/unlocked when exiting Layout Mode via the toolbar button.\n* **Toolbar Save Action**: Exiting Layout Mode via the toolbar button now correctly saves changes instead of discarding them.\n\n--- \n\n🎁 Earlier in v1.5.3 & v1.5.2\n* **Restored sidebar settings button**: Restored the missing button to access the configuration from the sidebar menu.\n* **Split configuration permissions**: Separate role thresholds for editing Tracking, Style/Layout, and Menu settings.\n* **Auto-populate & Auto-add PCs**: Automatically manages Party HUD members on new installs or PC creation.\n* **Fixed Layout Drift**: HUD positions now remain consistent across different screen aspect ratios and sizes.\n* **Flicker-Free Turns**: Optimized DOM rendering to eliminate visual flicker during combat turn changes.\n\n--- \n\n🎁 Earlier in v1.5.0\n* **Dynamic Portraits**: Character portraits react to Status Effects (Poisoned, Dead, etc.).\n* **Font Customization**: Customize Header and Body fonts independently.\n* **Macro Description Editing**: Right-click any macro to customize its tooltip flavor text.\n* **Per-Actor Card Scale**: Adjust individual card sizes (e.g., 0.6x for familiars).",
+    "notes": "📢 Update: Stylish Action HUD v1.5.6\n\n✨ New Features (v1.5.6)\n* **PF2e Spontaneous Heightening**: Signature Spells can now be cast at higher ranks directly from the HUD.\n* **PF2e Perception in Skills**: Perception is now conveniently listed at the top of the Skills tab.\n* **Visual Indicators**: Added Star icons for Signature Spells and distinct purple borders for Heightened (Virtual) spells.\n\n🛠 Bug Fixes & Optimization (v1.5.6)\n* **PF2e Spellcasting API Sync**: Updated internal logic to PF2e v5+ standards (`rank`, `slotId`) to ensure reliable heightened casting from prepared slots.\n* **Context Menu Fix**: Resolved an issue where the right-click menu failed for Spontaneous spells due to ID mismatch.\n\n--- \n\n🎁 Recent Updates (v1.5.4)\n* **Quick Positioning**: Long-press (0.4s) the Action Menu to drag and reposition it instantly.\n* **UI Fixes**: Resolved Status Effect dropdown issues and Layout Mode save stability.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.5.4-update",
-        "title": "🚀 v1.5.4: Quick Drag & UI Fixes",
-        "content": "New: Long-press to drag the Action Menu! Also fixes Status Effect dropdowns and Layout Mode save issues."
+        "id": "v1.5.6-update",
+        "title": "🚀 v1.5.6: PF2e Magic & Quality of Life",
+        "content": "Signature Spell support, Perception in skills, and critical API updates for PF2e spellcasting reliability!"
     }
 }
