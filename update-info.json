@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.3.1",
-  "downloadUrl": "", 
-  "notes": "<b>v1.7.3.1 Hotfix</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Line Busy Safety:</b> Callers now receive a proper 'Busy' notification if the target is already in a call, preventing conflicts.<br>• <b>Privacy:</b> The busy message no longer reveals who the target is speaking with.<br><br><hr>🚀 <b>Recently in v1.7.3:</b><br>• <b>Sound Fixes:</b> Device-specific ringtones and dial tones now apply correctly and update in real-time.<br>• <b>Refactor:</b> Internal code cleanup and improved initialization flow for better stability.",
+  "latestVersion": "1.8.0",
+  "downloadUrl": "",
+  "notes": "<b>v1.8.0 Feature Update</b><br>✨ <b>New Features:</b><br>• <b>Bulk Link (GM):</b> Connect multiple actors at once with mutual link support.<br>• <b>Master Phone Surveillance:</b> Monitor global calls and wiretap active conversations.<br>• <b>Gallery Drawing:</b> Draw on images or create sketches in the Gallery app.<br>• <b>Group Invite:</b> Invite new members to existing group chats.<br>• <b>Default Apps:</b> Configure default installed apps via settings or API.<br><br><hr>🛠 <b>Improvements:</b><br>• <b>Contacts UI:</b> Cleaner menu with improved search visibility.<br>• <b>API:</b> Added 'defaultInstalled' option for external app registration.",
   "critical": false,
   "announcement": {
-    "id": "v1.7.3.1-release",
+    "id": "v1.8.0-release",
     "show": true,
-    "title": "📱 Smartphone v1.7.3.1 Update",
-    "content": "<p><b>Smartphone Widget v1.7.3.1 is now available.</b></p><p>This update fixes sound settings and adds safeguards for simultaneous calls.</p><br><ul><li><b>📞 Line Busy:</b> Added a check for active calls. If you call someone who is already on the phone, you will now get a 'Busy' signal instead of errors.</li><li><b>🔊 Audio Fixes:</b> Fixed issues where custom sounds (ringtones/dial tones) were not applying or updating correctly.</li></ul>"
+    "title": "📱 Smartphone v1.8.0 Update",
+    "content": "<p><b>Smartphone Widget v1.8.0 is here!</b></p><p>This major update brings powerful GM tools and creative features.</p><br><ul><li><b>🕵️ Surveillance:</b> Master Phones can now monitor all calls and wiretap active conversations in real-time.</li><li><b>🔗 Bulk Link:</b> GMs can easily link multiple actors to a phone and establish mutual contacts instantly.</li><li><b>🎨 Gallery Drawing:</b> Unleash your creativity with new drawing tools in the Gallery app.</li><li><b>👥 Group Invite:</b> You can now invite new members to existing group chats.</li></ul>"
   }
 }
