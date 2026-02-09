@@ -1,13 +1,13 @@
 {
-    "latestVersion": "1.5.6",
+    "latestVersion": "1.7.1",
     "critical": false,
-    "notes": "📢 Update: Stylish Action HUD v1.5.6\n\n✨ New Features (v1.5.6)\n* **PF2e Spontaneous Heightening**: Signature Spells can now be cast at higher ranks directly from the HUD.\n* **PF2e Perception in Skills**: Perception is now conveniently listed at the top of the Skills tab.\n* **Visual Indicators**: Added Star icons for Signature Spells and distinct purple borders for Heightened (Virtual) spells.\n\n🛠 Bug Fixes & Optimization (v1.5.6)\n* **PF2e Spellcasting API Sync**: Updated internal logic to PF2e v5+ standards (`rank`, `slotId`) to ensure reliable heightened casting from prepared slots.\n* **Context Menu Fix**: Resolved an issue where the right-click menu failed for Spontaneous spells due to ID mismatch.\n\n--- \n\n🎁 Recent Updates (v1.5.4)\n* **Quick Positioning**: Long-press (0.4s) the Action Menu to drag and reposition it instantly.\n* **UI Fixes**: Resolved Status Effect dropdown issues and Layout Mode save stability.",
+    "notes": "## 🩹 Hotfix v1.7.1\n* **Party HUD Auto-Add Fix**: Resolved an issue where player-owned actors (familiars, summons) were continuously re-added to the HUD. Auto-enrollment is now limited to the **initial setup only** to prevent clutter.\n\n---\n\n## ✨ Major Update v1.7.0\n### 🎨 Visuals & Streaming\n* **Portrait Gallery & Switcher**: Register multiple portrait variants (e.g., Injured, Transformed) and switch them instantly via a theme-integrated visual picker.\n* **Stream Overlay (OBS)**: Generate actor-specific HUD links for OBS Browser Source via the actor sheet header.\n\n### 🛠 Layout & Controls\n* **Layout Editor Overhaul**: Added **Grid Snap Toggle** (pixel-perfect positioning), **Multi-Selection** (Shift+Click), **Group Drag**, and **Alignment Tools**.\n* **PF2e Equipment Menu**: Right-click items to Equip, Invest, Reload, and Grip (1H/2H) directly from HUD.\n* **DnD5e Enhancements**: Added Inspiration tracking (★) and Quick Equip toggles.\n\n### 🐛 Key Fixes\n* **Medieval Theme Scroll**: Fixed infinite expansion issues in inventory lists.\n* **Configuration**: Fixed bugs where clearing default trackers/menus would not save properly.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v1.5.6-update",
-        "title": "🚀 v1.5.6: PF2e Magic & Quality of Life",
-        "content": "Signature Spell support, Perception in skills, and critical API updates for PF2e spellcasting reliability!"
+        "id": "v1.7.1-update",
+        "title": "🚀 v1.7.1: Hotfix + Portrait Gallery & Stream Overlay",
+        "content": "Fixed the 'Auto-Add' issue for summons! v1.7.0 brings Portrait Switching, OBS Overlay, and a powerful new Layout Editor."
     }
 }
