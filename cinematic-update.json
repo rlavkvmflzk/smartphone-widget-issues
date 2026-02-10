@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.5.5",
+  "latestVersion": "1.7.0",
   "downloadUrl": "",
-  "notes": "<b>✨ v1.5.5 Update</b><br><br>✨ <b>New Features</b><br>- <b>Dice So Nice Integration:</b> Added a new setting to wait for Dice So Nice animations to finish before playing the Cinematic Cut-in.",
+  "notes": "<b>v1.7.0 Major Update</b><br>⚔️ <b>All-Out Global Layers:</b> Unified screen-wide effects for ultimate moves.<br>🎧 <b>Audio Only Mode:</b> Triggers for pure sound/SFX without visuals.<br>🎭 <b>Banner Mask:</b> Custom layers masked to theme containers.<br>👥 <b>Actor Groups:</b> Assign groups and default presets for easy management.<br><br><hr>🛠 <b>Improvements:</b><br>• <b>Resource Triggers:</b> Support for custom max values (WoD5e compatible).<br>• <b>Roll Keywords:</b> Enhanced v13 chat card detection.",
   "critical": false,
   "announcement": {
-    "id": "v155-update",
+    "id": "v1.7.0-release",
     "show": true,
-    "title": "✨ v1.5.5 Update",
-    "content": "Added a new setting to wait for Dice So Nice animations to finish before playing the cut-in."
+    "title": "🎬 Cinematic Cut-ins v1.7.0",
+    "content": "<p><b>v1.7.0 brings powerful visual and workflow upgrades!</b></p><br><ul><li><b>⚔️ All-Out Global Layers:</b> Create cohesive, screen-wide effects during ultimate attacks.</li><li><b>🎧 Audio Only Mode:</b> Play SFX or voice lines without interrupting the visual scene.</li><li><b>🎭 Banner Masks:</b> Perfect for 'paint splash' or 'torn paper' styles.</li><li><b>👥 Actor Groups:</b> Manage large casts easily with group-based default presets.</li></ul>"
   }
 }
