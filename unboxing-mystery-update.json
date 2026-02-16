@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.1",
   "downloadUrl": "",
-  "notes": "<b>v1.0.0 Initial Release</b><br>Welcome to Unboxing the Mystery!",
+  "notes": "<b>v1.0.1 Feature & Bugfix Update</b><br>✨ <b>New Features:</b><br>• <b>Update Notification System:</b> GMs are now notified when a new version of Unboxing the Mystery is available. Includes patch highlights and a \"Skip this version\" option.<br><br><hr>🐛 <b>Bug Fixes:</b><br>• <b>Lockpick Failure No Longer Reveals Items:</b> Previously, when all lockpicks broke during an item reveal, the item was shown to the player anyway. Lockpick failure now correctly keeps the item hidden, and players can retry by reopening the item.<br>• <b>Lockpick Failure Chat Message:</b> A chat message is now sent when a player fails to pick a lock, matching the existing success message behavior.",
   "critical": false,
   "announcement": {
-    "id": "v1.0.0-release",
-    "show": false,
-    "title": "",
-    "content": ""
+    "id": "v1.0.1-release",
+    "show": true,
+    "title": "📦 Unboxing the Mystery v1.0.1",
+    "content": "<p><b>v1.0.1 Update:</b></p><ul><li><b>✨ Update Notifications:</b> GMs now receive alerts when a new version is available, with patch highlights and skip option.</li><li><b>🐛 Lockpick Failure Fix:</b> Items are no longer revealed when lockpick fails — stays hidden and retryable.</li><li><b>🐛 Lockpick Failure Chat:</b> Failure now sends a chat message matching success behavior.</li></ul>"
   }
 }
