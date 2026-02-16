@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.1",
+  "latestVersion": "1.7.2",
   "downloadUrl": "",
-  "notes": "<b>v1.7.1 Hotfix</b><br>• <b>Localization:</b> Fixed hardcoded Korean strings in Actor Group Control Panel.<br><br><b>v1.7.0 Major Update</b><br>⚔️ <b>All-Out Global Layers:</b> Unified screen-wide effects for ultimate moves.<br>🎧 <b>Audio Only Mode:</b> Triggers for pure sound/SFX without visuals.<br>🎭 <b>Banner Mask:</b> Custom layers masked to theme containers.<br>👥 <b>Actor Groups:</b> Assign groups and default presets for easy management.<br><br><hr>🛠 <b>Improvements:</b><br>• <b>Resource Triggers:</b> Support for custom max values (WoD5e compatible).<br>• <b>Roll Keywords:</b> Enhanced v13 chat card detection.",
+  "notes": "<b>v1.7.2 Feature & Bugfix Update</b><br>✨ <b>New Features:</b><br>• <b>Expanded API for Element Targeting:</b> You can now trigger cut-ins by targeting specific DOM elements. This allows for more dynamic and precise visual effects within the UI.<br>• <b>Local Play Functionality:</b> Added a \"Play for Self Only\" feature. This allows users to trigger cut-ins that are visible only to themselves, perfect for personal UI feedback without distracting other players.<br><br><hr>🐛 <b>Bug Fixes:</b><br>• <b>v12 Image Border Artifacts:</b> Fixed a CSS rendering issue in Foundry v12 where custom images added to layers would display an unintended border/outline. (Standardized for v13, with improved compatibility for v12).",
   "critical": false,
   "announcement": {
-    "id": "v1.7.1-release",
+    "id": "v1.7.2-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.7.1",
-    "content": "<p><b>v1.7.1 Hotfix:</b> Fixed localization issues in the Control Panel.</p><hr><p><b>v1.7.0 Feature Highlights:</b></p><ul><li><b>⚔️ All-Out Global Layers:</b> Create cohesive, screen-wide effects during ultimate attacks.</li><li><b>🎧 Audio Only Mode:</b> Play SFX or voice lines without interrupting the visual scene.</li><li><b>🎭 Banner Masks:</b> Perfect for 'paint splash' or 'torn paper' styles.</li><li><b>👥 Actor Groups:</b> Manage large casts easily with group-based default presets.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.7.2",
+    "content": "<p><b>v1.7.2 Update:</b></p><ul><li><b>✨ Element Targeting API:</b> Trigger cut-ins on specific DOM elements for dynamic UI effects.</li><li><b>✨ Play for Self Only:</b> Personal cut-ins visible only to you.</li><li><b>🐛 v12 Image Border Fix:</b> Resolved CSS border artifacts on custom layer images.</li></ul>"
   }
 }

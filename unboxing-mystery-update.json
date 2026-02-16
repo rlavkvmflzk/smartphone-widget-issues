@@ -1,0 +1,12 @@
+{
+  "latestVersion": "1.0.0",
+  "downloadUrl": "",
+  "notes": "<b>v1.0.0 Initial Release</b><br>Welcome to Unboxing the Mystery!",
+  "critical": false,
+  "announcement": {
+    "id": "v1.0.0-release",
+    "show": false,
+    "title": "",
+    "content": ""
+  }
+}
