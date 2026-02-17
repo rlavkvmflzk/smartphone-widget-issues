@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.2",
+  "latestVersion": "1.7.3",
   "downloadUrl": "",
-  "notes": "<b>v1.7.2 Feature & Bugfix Update</b><br>✨ <b>New Features:</b><br>• <b>Expanded API for Element Targeting:</b> You can now trigger cut-ins by targeting specific DOM elements. This allows for more dynamic and precise visual effects within the UI.<br>• <b>Local Play Functionality:</b> Added a \"Play for Self Only\" feature. This allows users to trigger cut-ins that are visible only to themselves, perfect for personal UI feedback without distracting other players.<br><br><hr>🐛 <b>Bug Fixes:</b><br>• <b>v12 Image Border Artifacts:</b> Fixed a CSS rendering issue in Foundry v12 where custom images added to layers would display an unintended border/outline. (Standardized for v13, with improved compatibility for v12).",
+  "notes": "<b>v1.7.3 Bugfix Update</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Dice So Nice Wait — Systems Without Real Dice Rolls:</b> Cut-ins no longer get permanently stuck when \"Wait for Dice so Nice\" is enabled and the chat message contains roll data without actual dice terms (e.g., Daggerheart). Only waits when real dice (d20, d6, etc.) are present.<br>• <b>Timeout Safety Net:</b> Added an 8-second fallback timer so queued cut-ins still play even if Dice So Nice fails to fire.",
   "critical": false,
   "announcement": {
-    "id": "v1.7.2-release",
+    "id": "v1.7.3-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.7.2",
-    "content": "<p><b>v1.7.2 Update:</b></p><ul><li><b>✨ Element Targeting API:</b> Trigger cut-ins on specific DOM elements for dynamic UI effects.</li><li><b>✨ Play for Self Only:</b> Personal cut-ins visible only to you.</li><li><b>🐛 v12 Image Border Fix:</b> Resolved CSS border artifacts on custom layer images.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.7.3",
+    "content": "<p><b>v1.7.3 Bugfix Update:</b></p><ul><li><b>🐛 Dice So Nice Wait Fix:</b> Cut-ins no longer hang when the message has roll data but no actual dice (e.g., Daggerheart flat values). Now only waits for real dice rolls.</li><li><b>🐛 Timeout Safety Net:</b> 8-second fallback ensures cut-ins play even if Dice So Nice doesn't respond.</li></ul>"
   }
 }
