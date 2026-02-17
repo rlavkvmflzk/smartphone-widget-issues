@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.0.3",
+  "latestVersion": "1.0.4",
   "downloadUrl": "",
-  "notes": "<b>v1.0.3 Compatibility & Bug Fix</b><br>🔧 <b>Compatibility:</b><br>• <b>Foundry v12 Support:</b> Added legacy hooks so header buttons and overlay injection now work on v12 and v13 systems using legacy sheets.<br><br>🐛 <b>Bug Fixes:</b><br>• <b>Deprecation Warning Spam:</b> Fixed SceneControls#activeControl deprecation warning firing on every mouse move over the canvas.",
+  "notes": "<b>v1.0.4 Compatibility Fix</b><br>🔧 <b>Compatibility:</b><br>• <b>The Forge Hosting Support:</b> Fixed \"Dust Off\" mode not completing on The Forge and other CDN-based hosting platforms.",
   "critical": false,
   "announcement": {
-    "id": "v1.0.3-release",
+    "id": "v1.0.4-release",
     "show": true,
-    "title": "📦 Unboxing the Mystery v1.0.3",
-    "content": "<p><b>v1.0.3 Update:</b></p><ul><li><b>🔧 Foundry v12 Support:</b> Header buttons and overlay injection now work on v12 and v13 systems using legacy Application v1 sheets.</li><li><b>🐛 Deprecation Fix:</b> Fixed SceneControls#activeControl warning spam on canvas mouse movement.</li></ul>"
+    "title": "📦 Unboxing the Mystery v1.0.4",
+    "content": "<p><b>v1.0.4 Update:</b></p><ul><li><b>🔧 The Forge Support:</b> Fixed \"Dust Off\" mode not completing on The Forge and other CDN-based hosting platforms. Added CORS headers for canvas image loading.</li></ul>"
   }
 }
