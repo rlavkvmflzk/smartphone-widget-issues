@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.0.2",
+  "latestVersion": "1.0.3",
   "downloadUrl": "",
-  "notes": "<b>v1.0.2 Feature Update</b><br>✨ <b>New Features:</b><br>• <b>Auto-Grant Journal Permission:</b> When a player completes an unboxing, the parent journal's ownership can be automatically raised to a configurable level (Limited / Observer / Owner). Works on both journal pages and tiles with linked journals.<br>• <b>unboxingMystery.revealed Hook:</b> Fires on every reveal path for external macro and module integration.",
+  "notes": "<b>v1.0.3 Compatibility & Bug Fix</b><br>🔧 <b>Compatibility:</b><br>• <b>Foundry v12 Support:</b> Added legacy hooks so header buttons and overlay injection now work on v12 and v13 systems using legacy sheets.<br><br>🐛 <b>Bug Fixes:</b><br>• <b>Deprecation Warning Spam:</b> Fixed SceneControls#activeControl deprecation warning firing on every mouse move over the canvas.",
   "critical": false,
   "announcement": {
-    "id": "v1.0.2-release",
+    "id": "v1.0.3-release",
     "show": true,
-    "title": "📦 Unboxing the Mystery v1.0.2",
-    "content": "<p><b>v1.0.2 Update:</b></p><ul><li><b>✨ Auto-Grant Permission:</b> Automatically raise journal ownership for players who complete unboxing. Configurable per page and per tile (Disabled / Limited / Observer / Owner).</li><li><b>✨ Revealed Hook:</b> <code>unboxingMystery.revealed</code> hook now fires on all reveal paths for macro integration.</li></ul>"
+    "title": "📦 Unboxing the Mystery v1.0.3",
+    "content": "<p><b>v1.0.3 Update:</b></p><ul><li><b>🔧 Foundry v12 Support:</b> Header buttons and overlay injection now work on v12 and v13 systems using legacy Application v1 sheets.</li><li><b>🐛 Deprecation Fix:</b> Fixed SceneControls#activeControl warning spam on canvas mouse movement.</li></ul>"
   }
 }
