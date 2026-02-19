@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.0.4",
+  "latestVersion": "1.0.5",
   "downloadUrl": "",
-  "notes": "<b>v1.0.4 Compatibility Fix</b><br>🔧 <b>Compatibility:</b><br>• <b>The Forge Hosting Support:</b> Fixed \"Dust Off\" mode not completing on The Forge and other CDN-based hosting platforms.",
+  "notes": "<b>v1.0.5 Bug Fix</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Gacha Pool Config Crash on v12:</b> Fixed \"Add Currency\" button in gacha pool settings crashing with a TypeError. Changed DialogV2 callback to use the official Foundry API pattern.",
   "critical": false,
   "announcement": {
-    "id": "v1.0.4-release",
+    "id": "v1.0.5-release",
     "show": true,
-    "title": "📦 Unboxing the Mystery v1.0.4",
-    "content": "<p><b>v1.0.4 Update:</b></p><ul><li><b>🔧 The Forge Support:</b> Fixed \"Dust Off\" mode not completing on The Forge and other CDN-based hosting platforms. Added CORS headers for canvas image loading.</li></ul>"
+    "title": "📦 Unboxing the Mystery v1.0.5",
+    "content": "<p><b>v1.0.5 Update:</b></p><ul><li><b>🐛 Gacha Pool Config Crash Fix:</b> Fixed \"Add Currency\" button in gacha pool settings crashing with a TypeError on v12. Changed DialogV2 callback to use <code>button.form</code> (official Foundry API pattern).</li></ul>"
   }
 }
