@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.0.5",
+  "latestVersion": "1.0.6",
   "downloadUrl": "",
-  "notes": "<b>v1.0.5 Bug Fix</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Gacha Pool Config Crash on v12:</b> Fixed \"Add Currency\" button in gacha pool settings crashing with a TypeError. Changed DialogV2 callback to use the official Foundry API pattern.",
+  "notes": "<b>v1.0.6 Compatibility Fix</b><br>🔧 <b>Compatibility:</b><br>• <b>OBS Utils Compatibility:</b> Scoped global CSS overrides on <code>.editor-content</code> and <code>.ProseMirror</code> to within Unboxing the Mystery contexts only. Previously these rules could interfere with chat and overlay rendering in other modules such as OBS Utils.",
   "critical": false,
   "announcement": {
-    "id": "v1.0.5-release",
+    "id": "v1.0.6-release",
     "show": true,
-    "title": "📦 Unboxing the Mystery v1.0.5",
-    "content": "<p><b>v1.0.5 Update:</b></p><ul><li><b>🐛 Gacha Pool Config Crash Fix:</b> Fixed \"Add Currency\" button in gacha pool settings crashing with a TypeError on v12. Changed DialogV2 callback to use <code>button.form</code> (official Foundry API pattern).</li></ul>"
+    "title": "📦 Unboxing the Mystery v1.0.6",
+    "content": "<p><b>v1.0.6 Update:</b></p><ul><li><b>🔧 OBS Utils Compatibility:</b> Scoped global CSS overrides on <code>.editor-content</code> and <code>.ProseMirror</code> to within Unboxing the Mystery contexts only. Previously these rules could interfere with chat and overlay rendering in other modules such as OBS Utils.</li></ul>"
   }
 }
