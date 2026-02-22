@@ -1,1 +1,12 @@
-
+{
+  "latestVersion": "2.0.0",
+  "downloadUrl": "",
+  "notes": "<b>v1.0.6 Compatibility Fix</b><br>🔧 <b>Compatibility:</b><br>• <b>OBS Utils Compatibility:</b> Scoped global CSS overrides on <code>.editor-content</code> and <code>.ProseMirror</code> to within Unboxing the Mystery contexts only. Previously these rules could interfere with chat and overlay rendering in other modules such as OBS Utils.",
+  "critical": false,
+  "announcement": {
+    "id": "v1.0.6-release",
+    "show": true,
+    "title": "📦 Unboxing the Mystery v1.0.6",
+    "content": "<p><b>v1.0.6 Update:</b></p><ul><li><b>🔧 OBS Utils Compatibility:</b> Scoped global CSS overrides on <code>.editor-content</code> and <code>.ProseMirror</code> to within Unboxing the Mystery contexts only. Previously these rules could interfere with chat and overlay rendering in other modules such as OBS Utils.</li></ul>"
+  }
+}
