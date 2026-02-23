@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.0.6",
+  "latestVersion": "1.1.0",
   "downloadUrl": "",
-  "notes": "<b>v1.0.6 Compatibility Fix</b><br>🔧 <b>Compatibility:</b><br>• <b>OBS Utils Compatibility:</b> Scoped global CSS overrides on <code>.editor-content</code> and <code>.ProseMirror</code> to within Unboxing the Mystery contexts only. Previously these rules could interfere with chat and overlay rendering in other modules such as OBS Utils.",
+  "notes": "<b>v1.1.0 — Spectator Mode, Door Unboxing & More</b><br>✨ <b>New Features:</b><br>• <b>Gacha Spectator Mode:</b> All connected players watch gacha reveals in real-time. Sequential card-by-card reveals are socket-synced — spectators advance automatically when the puller clicks Next.<br>• <b>Puzzle Spectator Mode:</b> When a player solves a puzzle, other players see a floating overlay with live progress. Supports all five puzzle types.<br>• <b>Door Unboxing:</b> Lock any door wall behind a puzzle. Players must solve it to open the door. Includes per-door sounds and a GM relock button.<br>• <b>Per-Item Delivery Mode:</b> Each tile item can be set to Stack (add to existing quantity) or Individual (create a separate item document). Essential for D&D 5e and PF2e.<br>• <b>Live Remaining Count Badge:</b> The ×N badge updates in real-time to show actual remaining quantity.<br>• <b>Cinematic Cut-In: Everyone (In Dialog):</b> New gacha mode — cut-in plays inside the reveal dialog for all players simultaneously.<br>• <b>Disable Update Notifications:</b> Toggle off update popups in Module Settings.<br>🐛 <b>Bug Fixes:</b><br>• <b>Tile Item Take Failing for Players:</b> Fixed a critical bug where non-GM players could not take items from tile containers.<br>• <b>False Success Notification:</b> Item claim notifications now only show after server confirmation.",
   "critical": false,
   "announcement": {
-    "id": "v1.0.6-release",
+    "id": "v1.1.0-release",
     "show": true,
-    "title": "📦 Unboxing the Mystery v1.0.6",
-    "content": "<p><b>v1.0.6 Update:</b></p><ul><li><b>🔧 OBS Utils Compatibility:</b> Scoped global CSS overrides on <code>.editor-content</code> and <code>.ProseMirror</code> to within Unboxing the Mystery contexts only. Previously these rules could interfere with chat and overlay rendering in other modules such as OBS Utils.</li></ul>"
+    "title": "🎁 Unboxing the Mystery v1.1.0",
+    "content": "<p><b>v1.1.0 — Spectator Mode, Door Unboxing & More</b></p><ul><li><b>👥 Gacha Spectator Mode:</b> All players watch gacha reveals in real-time, synchronized card by card.</li><li><b>🔓 Puzzle Spectator Mode:</b> Live floating overlay for all five puzzle types — the whole table watches together.</li><li><b>🚪 Door Unboxing:</b> Lock any door behind a puzzle. Per-door sounds + GM relock button included.</li><li><b>📦 Per-Item Delivery Mode:</b> Set each tile item to Stack or Individual delivery — essential for D&D 5e / PF2e.</li><li><b>🔢 Live Remaining Count Badge:</b> ×N badge now reflects actual real-time remaining quantity.</li><li><b>🐛 Critical Fix:</b> Non-GM players can now take items from tile containers (was silently failing).</li></ul>"
   }
 }
