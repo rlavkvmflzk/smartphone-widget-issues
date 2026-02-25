@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.8.0",
+  "latestVersion": "1.9.0",
   "downloadUrl": "",
-  "notes": "<b>v1.8.0 Feature Update</b><br>✨ <b>New Features:</b><br>• <b>Bulk Link (GM):</b> Connect multiple actors at once with mutual link support.<br>• <b>Master Phone Surveillance:</b> Monitor global calls and wiretap active conversations.<br>• <b>Gallery Drawing:</b> Draw on images or create sketches in the Gallery app.<br>• <b>Group Invite:</b> Invite new members to existing group chats.<br>• <b>Default Apps:</b> Configure default installed apps via settings or API.<br><br><hr>🛠 <b>Improvements:</b><br>• <b>Contacts UI:</b> Cleaner menu with improved search visibility.<br>• <b>API:</b> Added 'defaultInstalled' option for external app registration.",
+  "notes": "<b>v1.9.0 Feature Update</b><br>✨ <b>New Features:</b><br>• <b>Battery System:</b> Phones drain over in-game time. Configurable drain rate, low battery warnings, and dead screen at 0%.<br>• <b>Charging Stations:</b> Configure tiles or V13 regions as charging zones with adjustable range and fast charge option.<br>• <b>Charge Items:</b> Register items as portable chargers — drag & drop to charge.<br>• <b>Dead Screen UX:</b> Charge from dead screen, long-press boot with progress ring, GM peek button.<br>• <b>Boot & Shutdown:</b> Android-style power animations with customizable boot logo.<br>• <b>Per-Phone Battery:</b> Apply battery to all phones or only selected ones with PC/NPC tabs and search.<br>• <b>Power Off:</b> Manual shutdown button in Control Center.<br><br><hr>🛠 <b>Improvements:</b><br>• <b>GM Battery Panel:</b> Directly set battery level or stop charging via in-phone slider.<br>• <b>Disable Update Notifications:</b> Toggle in settings or dismiss from dialog.",
   "critical": false,
   "announcement": {
-    "id": "v1.8.0-release",
+    "id": "v1.9.0-release",
     "show": true,
-    "title": "📱 Smartphone v1.8.0 Update",
-    "content": "<p><b>Smartphone Widget v1.8.0 is here!</b></p><p>This major update brings powerful GM tools and creative features.</p><br><ul><li><b>🕵️ Surveillance:</b> Master Phones can now monitor all calls and wiretap active conversations in real-time.</li><li><b>🔗 Bulk Link:</b> GMs can easily link multiple actors to a phone and establish mutual contacts instantly.</li><li><b>🎨 Gallery Drawing:</b> Unleash your creativity with new drawing tools in the Gallery app.</li><li><b>👥 Group Invite:</b> You can now invite new members to existing group chats.</li></ul>"
+    "title": "📱 Smartphone v1.9.0 Update",
+    "content": "<p><b>Smartphone Widget v1.9.0 is here!</b></p><p>A complete battery lifecycle system for your in-game smartphones.</p><br><ul><li><b>🔋 Battery System:</b> Phones drain over time and shut down at 0%. Fully optional and configurable.</li><li><b>⚡ Charging:</b> Tile stations, V13 region zones, and drag & drop charge items.</li><li><b>💀 Dead Screen:</b> Interactive dead screen with charging detection, long-press boot, and GM peek.</li><li><b>✨ Boot Animation:</b> Android-style power on/off with custom boot logos.</li><li><b>🎛️ Per-Phone Control:</b> Choose which phones have battery — PC/NPC tabs with search.</li></ul>"
   }
 }
