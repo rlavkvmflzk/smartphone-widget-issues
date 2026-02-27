@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.7.3",
+  "latestVersion": "1.8.0",
   "downloadUrl": "",
-  "notes": "<b>v1.7.3 Bugfix Update</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Dice So Nice Wait — Systems Without Real Dice Rolls:</b> Cut-ins no longer get permanently stuck when \"Wait for Dice so Nice\" is enabled and the chat message contains roll data without actual dice terms (e.g., Daggerheart). Only waits when real dice (d20, d6, etc.) are present.<br>• <b>Timeout Safety Net:</b> Added an 8-second fallback timer so queued cut-ins still play even if Dice So Nice fails to fire.",
+  "notes": "<b>v1.8.0 Major Update</b><br>✨ <b>New Features:</b><br>• <b>Trigger Macro Execution:</b> Link any macro to any trigger type — runs automatically when the trigger fires. Play a cut-in, run a macro, or both together.<br>• <b>Preset Export/Import (Zip):</b> Export presets as .zip files bundling all images and sounds. Import restores assets and remaps paths automatically.<br>• <b>New Theme — Horizon (All-Out Attack):</b> Widescreen horizontal strips with a clean blind effect. The map stays visible between characters.<br>• <b>New Theme — Ink (Personal):</b> Ink splatters hit the screen in sequence, then the character emerges from shadow.<br>• <b>Add Actor to All-Out Attack:</b> Add participants to existing presets via the new Add Actor button with PC/NPC filters and search.<br>• <b>Separate Sub Text Font:</b> Main text and sub text can now use different fonts.<br>• <b>Bold & Italic Styling:</b> B/I toggles for each text line in both personal and All-Out config.<br><br>🐛 <b>Bug Fixes:</b><br>• All-Out config window now opens centered on screen.<br>• Neon theme sub text is now visible with redesigned synthwave animation.",
   "critical": false,
   "announcement": {
-    "id": "v1.7.3-release",
+    "id": "v1.8.0-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.7.3",
-    "content": "<p><b>v1.7.3 Bugfix Update:</b></p><ul><li><b>🐛 Dice So Nice Wait Fix:</b> Cut-ins no longer hang when the message has roll data but no actual dice (e.g., Daggerheart flat values). Now only waits for real dice rolls.</li><li><b>🐛 Timeout Safety Net:</b> 8-second fallback ensures cut-ins play even if Dice So Nice doesn't respond.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.8.0",
+    "content": "<p><b>v1.8.0 Major Update — Trigger Macros, Zip Export & New Themes</b></p><ul><li><b>⚙️ Trigger Macros:</b> Link macros to any trigger — automate beyond visuals.</li><li><b>📦 Zip Export/Import:</b> Share presets with all assets bundled in one file.</li><li><b>🎞️ New Themes:</b> Horizon (All-Out widescreen strips) & Ink (personal ink splash).</li><li><b>👥 Add Actor:</b> Add participants to existing All-Out presets on the fly.</li><li><b>✍️ Typography:</b> Separate fonts + Bold/Italic toggles for main & sub text.</li></ul>"
   }
 }
