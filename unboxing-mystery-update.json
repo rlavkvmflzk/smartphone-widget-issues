@@ -1,12 +1,12 @@
 {
   "latestVersion": "1.2.0",
   "downloadUrl": "",
-  "notes": "<b>v1.2.0 — 마법진 모드, 조합 잠금 & 프리셋 시스템</b><br>✨ <b>새로운 기능:</b><br>• <b>마법진(Glyph) 모드:</b> 신비로운 마법진 애니메이션으로 보물을 공개합니다. 시각적 임팩트를 극대화한 새로운 연출 방식입니다.<br>• <b>조합 잠금 모드:</b> 숫자 조합을 입력하여 보물을 해제하는 새로운 퍼즐 타입입니다.<br>• <b>프리셋 시스템:</b> 자주 사용하는 설정을 저장하고 불러올 수 있습니다. 내보내기/가져오기로 다른 월드와 공유 가능합니다.<br>• <b>상호작용 범위 제한:</b> 보물 상자와의 상호작용 거리를 설정할 수 있습니다.<br>• <b>가챠 마퀴 & 성능 최적화:</b> 가챠 마퀴 UI 개선 및 전반적인 성능 최적화를 진행했습니다.<br>🐛 <b>버그 수정:</b><br>• 스펙테이터 모드 관련 버그 수정<br>• 가챠 클레임 기능 안정성 개선",
+  "notes": "<b>v1.2.0 — Glyph Puzzles, Combination Locks & Preset System</b><br>✨ <b>New Features:</b><br>• <b>Glyph Mode:</b> Trace magic circles by hand to unlock rewards. Includes multiple layers, custom colors, and spectator support.<br>• <b>Combination Lock:</b> Fully interactive mechanical safe with rotating number dials, secret codes, and momentum physics.<br>• <b>Preset System:</b> Save unboxing setups as presets. Export/import setups (ZIP) and gacha pools (JSON) between worlds.<br>• <b>Interaction Range:</b> Set a maximum distance in grid squares for puzzle interaction.<br>⚡ <b>Improvements:</b><br>• Faster gacha config loading (100+ items) and smooth marquee scrolling for featured items.<br>🐛 <b>Bug Fixes:</b><br>• Fixed unclaimable gacha results and spectator sync for new puzzle types.",
   "critical": false,
   "announcement": {
-    "id": "v1.2.0-release",
+    "id": "v1.2.0-release-fix",
     "show": true,
     "title": "🎁 Unboxing the Mystery v1.2.0",
-    "content": "<p><b>v1.2.0 — 마법진 모드, 조합 잠금 & 프리셋 시스템</b></p><ul><li><b>✨ 마법진(Glyph) 모드:</b> 신비로운 마법진 애니메이션으로 보물을 공개합니다.</li><li><b>🔐 조합 잠금 모드:</b> 숫자 조합을 입력하여 보물을 해제하는 새로운 퍼즐입니다.</li><li><b>💾 프리셋 시스템:</b> 설정을 저장/불러오기 및 내보내기/가져오기로 공유 가능합니다.</li><li><b>📏 상호작용 범위 제한:</b> 보물 상자와의 상호작용 거리를 제어합니다.</li><li><b>⚡ 성능 최적화:</b> 가챠 마퀴 UI 개선 및 전반적인 최적화를 진행했습니다.</li><li><b>🐛 버그 수정:</b> 스펙테이터 모드 및 가챠 클레임 기능 안정성 개선.</li></ul>"
+    "content": "<p><b>v1.2.0 — Glyph Puzzles, Combination Locks & Preset System</b></p><ul><li><b>🪄 Glyph Mode:</b> Trace intricate magic circles by hand to unlock hidden rewards.</li><li><b>🔐 Combination Lock:</b> Fully interactive mechanical safe with rotating number dials and momentum physics.</li><li><b>📦 Preset System & Portability:</b> Save configurations as reusable presets. Export/import setups and gacha pools between worlds.</li><li><b>📏 Interaction Range:</b> Set a maximum distance for players to interact with puzzles.</li><li><b>⚡ Improvements:</b> Faster gacha config loading (100+ items) and smooth marquee scrolling for featured items.</li><li><b>🐛 Bug Fixes:</b> Resolved gacha claim UI issues and spectator sync bugs.</li></ul>"
   }
 }
