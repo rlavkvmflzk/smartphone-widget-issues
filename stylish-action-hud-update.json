@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.0.12",
+    "latestVersion": "2.1.0",
     "critical": false,
-    "notes": "## ✨ v2.0.12 — Config UX Improvement\n\n### New Features\n* **Deselect All Actors**: Added a button next to the actor search bar to deselect all selected actors at once (GM only).\n\n---\n\n## ✨ v2.0.11 — Per-Attribute Font Size & PF2E Fixes\n\n### New Features\n* **Per-Attribute Font Size**: Each tracked attribute now has individual Label Font Size (LF) and Value Font Size (VF) controls. Works across all 6 themes and all display types (Bar, Number/Text, Dots, Badge).\n\n### Bug Fixes\n* **PF2E: Non-Strike Weapons Not Detected**: Fixed weapons with non-standard action types (e.g., area-fire) not appearing in the Strike menu. Also added support for altUsages — weapons with alternative attack modes now show additional attack/damage buttons.\n* **PF2E: Unequipped Weapons Shown**: Fixed all owned weapons appearing in the Strike menu. Now only equipped weapons are listed.\n* **PF2E: Broken Shield Showing 0 HP**: Fixed shield HP forced to 0 when broken. Now displays actual remaining HP with a strikethrough indicator.\n* **Value Text Clipping**: Fixed bar value text being clipped by clip-path in Iron and Glass themes.",
+    "notes": "## ✨ v2.1.0 — Voice Activity, Visual Effects per Rule, Ammo & Range\n\n### New Features\n* **Voice Activity Indicator**: See who's talking — HUD cards glow when a player speaks. Each player picks their glow color. Uses browser mic, independent of Discord. Opt-in world setting.\n* **Per-Rule Visual Effects**: Dynamic Image Rules now carry their own filters, overlays, and tints. When a rule matches, its effects override the base Visual Effects.\n* **D&D 5e Ammunition Management**: Weapons show equipped ammo inline with color-coded count. Dropdown to switch ammo, ± buttons to adjust.\n* **PF2e Ammunition Management**: Strike menu shows equipped ammo per weapon with dropdown and ± controls. Ammo also appears in Inventory.\n* **D&D 5e Spell & Weapon Range**: Spells show range inline next to components. Weapons show range alongside damage type.\n* **Name Z-Index Control**: Layer name text above or behind the portrait.\n* **Wrapper Z-Index & Offsets**: Z-index and X/Y controls for Status, Bars, Dots, Numbers, and Badges wrappers. Global defaults with per-actor override.\n\n### Improvements\n* Menu Category Drag Reorder now works.\n* Cross-System Theme Import preserves action menu config.\n* Discord Support Link in module settings.\n\n### Bug Fixes\n* Config Save Not Persisting (deep clone fix).\n* Reset reverting immediately (preview race condition).\n* Name Z-Index not working across all themes.\n* Cyberpunk Name X/Y not applying.\n* Long item names overlapping cost/range area.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.0.12-fontsize-pf2e-ux",
-        "title": "✨ v2.0.9–2.0.12: Font Size, PF2E Fixes & Config UX",
-        "content": "New: Deselect All button for actor list. Per-attribute Label/Value font size controls (LF/VF). PF2E: fixed non-standard weapons, unequipped weapons showing, and broken shield HP. Also fixed value text clipping, config data loss, and scrollable tooltips."
+        "id": "v2.1.0-voice-vfx-ammo-range",
+        "title": "✨ v2.1.0: Voice Activity, Per-Rule Effects, Ammo & Range",
+        "content": "New: Voice Activity Indicator — HUD cards glow when players speak. Per-Rule Visual Effects on Dynamic Image Rules. Full ammunition management for D&D 5e & PF2e. Inline spell/weapon range display. Wrapper Z-Index controls. Plus config save and Name Z-Index fixes."
     }
 }
