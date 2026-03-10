@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.9.0",
+  "latestVersion": "1.9.1",
   "downloadUrl": "",
-  "notes": "<b>v1.9.0 Update</b><br>✨ <b>New Features:</b><br>• <b>New Theme — Cleave:</b> Aggressive crack lines tear across the screen. Character emerges through a slash that splits open from the center.<br>• <b>New Theme — Eclipse:</b> Celestial eclipse motif with golden corona ring, radiating light rays, and slow character reveal from black silhouette to full color.<br>• <b>Video Audio Toggle:</b> Unmute main character video and per-layer video audio with independent toggles.<br>• <b>Video Loop Toggle:</b> Disable main character video loop for one-shot animations.<br>• <b>Custom Vote Button Sound:</b> All-Out Attack vote button click sound is now customizable per preset.<br><br>🐛 <b>Bug Fixes:</b><br>• Background dimming slider (0–100%) now works correctly.<br>• Video elements properly cleaned up when cut-ins end (was leaking GPU/CPU).<br>• Layer loop checkbox now syncs properly in preview.",
+  "notes": "<b>v1.9.1 Update</b><br>✨ <b>New Features:</b><br>• <b>Preset Getter API:</b> 6 new public API methods — <code>getGlobalPreset(name)</code>, <code>getAllOutPreset(name)</code>, <code>getActorPresets(actor)</code>, and more. Fetch presets by name or ID without digging into game settings.<br><br>🐛 <b>Bug Fixes:</b><br>• <b>Brush Theme Not Rendering:</b> The background paint CSS rule was accidentally deleted in v1.9.0. Restored — brush theme works again.<br>• <b>Eclipse Theme — Text Shadow Stays Yellow:</b> Main and sub text shadows were hardcoded to gold instead of following the theme color. Now uses the configured theme color.",
   "critical": false,
   "announcement": {
-    "id": "v1.9.0-release",
+    "id": "v1.9.1-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.9.0",
-    "content": "<p><b>v1.9.0 — Cleave & Eclipse Themes, Video Audio & Dimming Fix</b></p><ul><li><b>⚔️ Cleave:</b> Aggressive crack lines + slash reveal from darkness.</li><li><b>🌑 Eclipse:</b> Celestial boss entrance with golden corona and slow silhouette reveal.</li><li><b>🔊 Video Audio:</b> Unmute character & layer videos independently.</li><li><b>🐛 Dimming Fix:</b> Background dimming slider now actually works.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.9.1",
+    "content": "<p><b>v1.9.1 — Preset API & Bug Fixes</b></p><ul><li><b>🔌 Preset API:</b> New getter methods — fetch presets by name or ID via <code>api.getGlobalPreset(\"My Style\")</code>.</li><li><b>🐛 Brush Theme:</b> Background was invisible since v1.9.0 — now fixed.</li><li><b>🐛 Eclipse Shadow:</b> Text glow no longer stays yellow when theme color is changed.</li></ul>"
   }
 }
