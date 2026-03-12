@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.1.0",
+    "latestVersion": "2.2.0",
     "critical": false,
-    "notes": "## ✨ v2.1.0 — Voice Activity, Visual Effects per Rule, Ammo & Range\n\n### New Features\n* **Voice Activity Indicator**: See who's talking — HUD cards glow when a player speaks. Each player picks their glow color. Uses browser mic, independent of Discord. Opt-in world setting.\n* **Per-Rule Visual Effects**: Dynamic Image Rules now carry their own filters, overlays, and tints. When a rule matches, its effects override the base Visual Effects.\n* **D&D 5e Ammunition Management**: Weapons show equipped ammo inline with color-coded count. Dropdown to switch ammo, ± buttons to adjust.\n* **PF2e Ammunition Management**: Strike menu shows equipped ammo per weapon with dropdown and ± controls. Ammo also appears in Inventory.\n* **D&D 5e Spell & Weapon Range**: Spells show range inline next to components. Weapons show range alongside damage type.\n* **Name Z-Index Control**: Layer name text above or behind the portrait.\n* **Wrapper Z-Index & Offsets**: Z-index and X/Y controls for Status, Bars, Dots, Numbers, and Badges wrappers. Global defaults with per-actor override.\n\n### Improvements\n* Menu Category Drag Reorder now works.\n* Cross-System Theme Import preserves action menu config.\n* Discord Support Link in module settings.\n\n### Bug Fixes\n* Config Save Not Persisting (deep clone fix).\n* Reset reverting immediately (preview race condition).\n* Long item names overlapping cost/range area.",
+    "notes": "## ✨ v2.2.0 — Voice Portrait, Per-Bar Images, Per-Button Frames\n\n### New Features\n* **Voice Portrait**: HUD portrait automatically switches to a designated variant while speaking. Pick the 🎤 icon next to any portrait variant in the Portrait tab. Reverts when you stop talking. Works on all clients.\n* **Per-Button Frame Layers**: Each action menu button can have its own frame layers, independent of the global Button Frame. Expand \"Per-Button Frame\" on any category in the Menu tab.\n* **Per-Bar Image Override**: Each bar-style tracking attribute can have its own Frame, Fill, and Background images. Expand \"Bar Images\" on any bar in the Tracking tab. Empty fields fall back to global defaults.\n\n### Improvements\n* Custom Theme submenu height reduced (450px → 380px).",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.1.0-voice-vfx-ammo-range",
-        "title": "✨ v2.1.0: Voice Activity, Per-Rule Effects, Ammo & Range",
-        "content": "New: Voice Activity Indicator — HUD cards glow when players speak. Per-Rule Visual Effects on Dynamic Image Rules. Full ammunition management for D&D 5e & PF2e. Inline spell/weapon range display. Wrapper Z-Index controls. Plus config save and stability fixes."
+        "id": "v2.2.0-voice-portrait-per-bar-per-btn",
+        "title": "✨ v2.2.0: Voice Portrait, Per-Bar Images, Per-Button Frames",
+        "content": "New: Voice Portrait — your HUD portrait switches automatically while speaking. Per-Button Frame Layers for individual action menu buttons. Per-Bar Image Override for bar-style tracking attributes. Plus reduced submenu height for custom themes."
     }
 }
