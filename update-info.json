@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.9.1",
+  "latestVersion": "2.0.0",
   "downloadUrl": "",
-  "notes": "<b>v1.9.1 Update</b><br>✨ <b>New Features:</b><br>• <b>Boot Screen Video:</b> Boot screen now supports video files (webm, mp4, m4v, ogg) with audio playback.<br>• <b>Item Drop Hook:</b> Add-on modules can now respond to item drops on the phone widget.<br><br><hr><b>🆔 ID Card App v1.1.0</b><br>• <b>Card Itemization:</b> Export ID cards as Foundry Items and distribute as loot.<br>• Cards auto-install when picked up, auto-remove when item is deleted from inventory.",
+  "notes": "<b>v2.0.0 Update</b><br>✨ <b>New Features:</b><br>• <b>Signal System:</b> Set signal levels per scene (Full / Weak / No Signal). Messages queue in dead zones and arrive on restore. Calls auto-reject with missed call records.<br>• <b>Signal Dead Zone (V13):</b> Region Behavior for drawing signal-affected areas on the map.<br>• <b>Weak Signal Mode:</b> Message delay, random send failure with retry, and call drops — all GM-configurable per scene and region.<br>• <b>Satellite Phone:</b> Mark phones as immune to all signal blocking.<br>• <b>Custom Frame Themes:</b> Create multiple named frames with image overlay, corner radius, padding, and colors. Real-time preview. ZIP export/import.<br>• <b>Quoted Literals:</b> Use \"ARASAKA\"-NNN in number formats for literal text.",
   "critical": false,
   "announcement": {
-    "id": "v1.9.1-release",
+    "id": "v2.0.0-release",
     "show": true,
-    "title": "📱 Smartphone v1.9.1 + ID Card v1.1.0",
-    "content": "<p><b>Smartphone Widget v1.9.1</b></p><ul><li><b>🎬 Boot Video:</b> Use video files (webm, mp4) as boot screens — plays with sound and auto-transitions when finished.</li><li><b>🔌 Item Drop Hook:</b> New extension point for add-on modules to handle item drops on the phone.</li></ul><br><p><b>ID Card App v1.1.0</b></p><ul><li><b>📦 Card Itemization:</b> GM can export cards as Foundry Items via the new toolbar button.</li><li><b>🎁 Loot Distribution:</b> Put card items in loot piles or grant directly — cards auto-install on the player's phone when picked up.</li><li><b>🗑️ Auto-Remove:</b> Deleting the item from inventory also removes the card from the phone.</li></ul>"
+    "title": "📱 Smartphone Widget v2.0.0",
+    "content": "<p><b>Smartphone Widget v2.0.0</b></p><ul><li><b>📡 Signal System:</b> Control where phones work — Full, Weak, or No Signal per scene/region. Messages queue and arrive on restore.</li><li><b>📶 Weak Signal:</b> Message delay, random failure with retry, call drops — all configurable per scene and region.</li><li><b>📡 Satellite Phone:</b> Immune to all signal blocking.</li><li><b>🎨 Custom Frames:</b> Build named frame themes with image overlay, adjust radius/padding/colors with real-time preview. Export as ZIP.</li><li><b>🔢 Quoted Literals:</b> \"ARASAKA\"-NNN-NNN → ARASAKA-482-193.</li></ul>"
   }
 }
