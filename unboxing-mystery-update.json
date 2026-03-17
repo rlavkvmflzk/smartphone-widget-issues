@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.2.0",
+  "latestVersion": "1.2.2",
   "downloadUrl": "",
-  "notes": "<b>v1.2.0 — Glyph Puzzles, Combination Locks & Preset System</b><br>✨ <b>New Features:</b><br>• <b>Glyph Mode:</b> Trace magic circles by hand to unlock rewards. Includes multiple layers, custom colors, and spectator support.<br>• <b>Combination Lock:</b> Fully interactive mechanical safe with rotating number dials, secret codes, and momentum physics.<br>• <b>Preset System:</b> Save unboxing setups as presets. Export/import setups (ZIP) and gacha pools (JSON) between worlds.<br>• <b>Interaction Range:</b> Set a maximum distance in grid squares for puzzle interaction.<br>⚡ <b>Improvements:</b><br>• Faster gacha config loading (100+ items) and smooth marquee scrolling for featured items.<br>🐛 <b>Bug Fixes:</b><br>• Fixed unclaimable gacha results and spectator sync for new puzzle types.",
+  "notes": "<b>v1.2.2 — Bug Fixes</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Hidden Tile Interaction:</b> Hidden tiles no longer respond to player clicks or hover highlights.<br>• <b>Tile Reveal Broadcast:</b> Tile reveal state is now broadcast to all players even when no Opened Image is configured. Previously, other players could re-trigger puzzles on already-opened tiles.",
   "critical": false,
   "announcement": {
-    "id": "v1.2.0-release-fix",
+    "id": "v1.2.2-bugfix",
     "show": true,
-    "title": "🎁 Unboxing the Mystery v1.2.0",
-    "content": "<p><b>v1.2.0 — Glyph Puzzles, Combination Locks & Preset System</b></p><ul><li><b>🪄 Glyph Mode:</b> Trace intricate magic circles by hand to unlock hidden rewards.</li><li><b>🔐 Combination Lock:</b> Fully interactive mechanical safe with rotating number dials and momentum physics.</li><li><b>📦 Preset System & Portability:</b> Save configurations as reusable presets. Export/import setups and gacha pools between worlds.</li><li><b>📏 Interaction Range:</b> Set a maximum distance for players to interact with puzzles.</li><li><b>⚡ Improvements:</b> Faster gacha config loading (100+ items) and smooth marquee scrolling for featured items.</li><li><b>🐛 Bug Fixes:</b> Resolved gacha claim UI issues and spectator sync bugs.</li></ul>"
+    "title": "🎁 Unboxing the Mystery v1.2.2",
+    "content": "<p><b>v1.2.2 — Bug Fixes</b></p><ul><li><b>🐛 Hidden Tile Interaction:</b> Hidden tiles no longer respond to player clicks or hover highlights.</li><li><b>🐛 Tile Reveal Broadcast:</b> Tile reveal state is now properly broadcast to all connected players, regardless of Opened Image settings. Other players can no longer re-trigger puzzles on already-opened tiles.</li></ul>"
   }
 }
