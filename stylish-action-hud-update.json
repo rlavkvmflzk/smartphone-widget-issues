@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.2.0",
+    "latestVersion": "2.2.2",
     "critical": false,
-    "notes": "## ✨ v2.2.0 — Voice Portrait, Per-Bar Images, Per-Button Frames\n\n### New Features\n* **Voice Portrait**: HUD portrait automatically switches to a designated variant while speaking. Pick the 🎤 icon next to any portrait variant in the Portrait tab. Reverts when you stop talking. Works on all clients.\n* **Per-Button Frame Layers**: Each action menu button can have its own frame layers, independent of the global Button Frame. Expand \"Per-Button Frame\" on any category in the Menu tab.\n* **Per-Bar Image Override**: Each bar-style tracking attribute can have its own Frame, Fill, and Background images. Expand \"Bar Images\" on any bar in the Tracking tab. Empty fields fall back to global defaults.\n\n### Improvements\n* Custom Theme submenu height reduced (450px → 380px).",
+    "notes": "## v2.2.2\n\n### Bug Fixes\n* Players can now change portrait expressions without hitting a permission error.\n* Players can now save portrait variant edits from the config dialog.\n* Portrait expression changes now update correctly on the GM client.\n* Reduced custom theme action menu image flicker by cutting unnecessary menu re-renders.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.2.0-voice-portrait-per-bar-per-btn",
-        "title": "✨ v2.2.0: Voice Portrait, Per-Bar Images, Per-Button Frames",
-        "content": "New: Voice Portrait — your HUD portrait switches automatically while speaking. Per-Button Frame Layers for individual action menu buttons. Per-Bar Image Override for bar-style tracking attributes. Plus reduced submenu height for custom themes."
+        "id": "v2.2.2-portrait-fixes-action-menu-rerender",
+        "title": "v2.2.2: Portrait Variant Fixes",
+        "content": "Fixed player portrait expression changes, portrait variant saving, and GM-side sync. Also reduced custom theme action menu image flicker."
     }
 }
