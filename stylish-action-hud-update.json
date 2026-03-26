@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.2.2",
+    "latestVersion": "2.3.0",
     "critical": false,
-    "notes": "## v2.2.2\n\n### Bug Fixes\n* Players can now change portrait expressions without hitting a permission error.\n* Players can now save portrait variant edits from the config dialog.\n* Portrait expression changes now update correctly on the GM client.\n* Reduced custom theme action menu image flicker by cutting unnecessary menu re-renders.",
+    "notes": "## v2.3.0\n\n### New Features\n* **Owner-Only Cards** — Restrict HUD cards to character owners only. GM always sees all.\n* **Selected Token Display** — Cards appear only when a token is selected. Works with NPCs too.\n* **Qualitative HP Display** — Show Healthy/Wounded/Bloodied/Critical/Dead instead of numbers for non-owners. Configurable thresholds, labels, and colors.\n* **Full Configuration Presets** — Save/load/export/import your entire configuration.\n* **Portrait Clip (Custom Theme)** — Clip portraits to Rectangle, Circle, or Diamond.\n* **GM HUD Broadcast Toggle** — Hide/show HUD for all players (📡 button or Shift+G).\n* **Action Menu End Turn** — Hourglass button to advance combat from the Action Menu.\n* **Category & Tab Visibility** — Combat-based category visibility + per-tab actor filtering.\n\n### Bug Fixes\n* Fixed text attribute values showing as 0.\n* Fixed position fields resetting to 0.\n* Fixed Action Menu ghost duplicate in top-left corner.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.2.2-portrait-fixes-action-menu-rerender",
-        "title": "v2.2.2: Portrait Variant Fixes",
-        "content": "Fixed player portrait expression changes, portrait variant saving, and GM-side sync. Also reduced custom theme action menu image flicker."
+        "id": "v2.3.0-visibility-qualitative-presets",
+        "title": "v2.3.0: Visibility Control, Qualitative HP & Presets",
+        "content": "Owner-only cards, selected token mode, qualitative HP display with custom labels/colors, full configuration presets, portrait clip, GM broadcast toggle, action menu end turn button, and category/tab visibility filtering."
     }
 }
