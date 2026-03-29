@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.3.0",
+    "latestVersion": "2.3.2",
     "critical": false,
-    "notes": "## v2.3.0\n\n### New Features\n* **Owner-Only Cards** — Restrict HUD cards to character owners only. GM always sees all.\n* **Selected Token Display** — Cards appear only when a token is selected. Works with NPCs too.\n* **Qualitative HP Display** — Show Healthy/Wounded/Bloodied/Critical/Dead instead of numbers for non-owners. Configurable thresholds, labels, and colors.\n* **Full Configuration Presets** — Save/load/export/import your entire configuration.\n* **Portrait Clip (Custom Theme)** — Clip portraits to Rectangle, Circle, or Diamond.\n* **GM HUD Broadcast Toggle** — Hide/show HUD for all players (📡 button or Shift+G).\n* **Action Menu End Turn** — Hourglass button to advance combat from the Action Menu.\n* **Category & Tab Visibility** — Combat-based category visibility + per-tab actor filtering.\n\n### Bug Fixes\n* Fixed text attribute values showing as 0.\n* Fixed position fields resetting to 0.\n* Fixed Action Menu ghost duplicate in top-left corner.",
+    "notes": "## v2.3.2\n\n### Bug Fixes\n* **Compact Mode Phantom Hover** — Fixed collapsed cards expanding when hovering over the invisible area where tracking elements (numbers, badges, pips) would normally appear.\n\n## v2.3.1\n\n### Bug Fixes\n* **Player Per-Actor Settings Not Saving** — Fixed non-GM players' per-actor style settings being silently discarded on save. Player customizations are now stored client-side and rendered only on that player's screen.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.3.0-visibility-qualitative-presets",
-        "title": "v2.3.0: Visibility Control, Qualitative HP & Presets",
-        "content": "Owner-only cards, selected token mode, qualitative HP display with custom labels/colors, full configuration presets, portrait clip, GM broadcast toggle, action menu end turn button, and category/tab visibility filtering."
+        "id": "v2.3.2-bugfixes",
+        "title": "v2.3.1~2.3.2: Bug Fixes",
+        "content": "Fixed player per-actor settings being silently discarded for non-GM users, and compact mode cards expanding when hovering over invisible tracking elements."
     }
 }
