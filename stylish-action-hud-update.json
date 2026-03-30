@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.3.2",
+    "latestVersion": "2.3.3",
     "critical": false,
-    "notes": "## v2.3.2\n\n### Bug Fixes\n* **Compact Mode Phantom Hover** — Fixed collapsed cards expanding when hovering over the invisible area where tracking elements (numbers, badges, pips) would normally appear.\n\n## v2.3.1\n\n### Bug Fixes\n* **Player Per-Actor Settings Not Saving** — Fixed non-GM players' per-actor style settings being silently discarded on save. Player customizations are now stored client-side and rendered only on that player's screen.",
+    "notes": "<b>v2.3.3 — Bug Fix</b><br>🐛 Fixed the HUD jumping to the top-left corner when changing any setting while using a top or right anchor position.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.3.2-bugfixes",
-        "title": "v2.3.1~2.3.2: Bug Fixes",
-        "content": "Fixed player per-actor settings being silently discarded for non-GM users, and compact mode cards expanding when hovering over invisible tracking elements."
+        "id": "v2.3.3-bugfix",
+        "title": "⚔️ Stylish Action HUD v2.3.3",
+        "content": "<p><b>v2.3.3 — Bug Fix</b></p><ul><li>Fixed the HUD jumping to the top-left corner when changing settings with a top or right anchor.</li></ul>"
     }
 }
