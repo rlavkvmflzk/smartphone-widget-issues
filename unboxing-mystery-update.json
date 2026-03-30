@@ -1,12 +1,12 @@
 {
   "latestVersion": "1.3.1",
   "downloadUrl": "",
-  "notes": "<b>v1.3.1 — Bug Fixes</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Spectator Not Opening:</b> Spectator windows were not appearing for any puzzle mode.<br>• <b>Matching Grid Overflow:</b> Cards no longer overflow the spectator window.<br>• <b>MATT Flow Control:</b> Monk's Active Tile Triggers action now waits for puzzle completion and resumes with the result.<br>• <b>MATT Re-trigger:</b> Already-solved tiles no longer re-open when triggered through MATT.",
+  "notes": "<b>v1.3.1 — Bug Fixes</b><br>🐛 <b>Bug Fixes:</b><br>• <b>MATT Flow Control:</b> Monk's Active Tile Triggers action now waits for puzzle completion and resumes with the result. Supports success/failure anchor branching.<br>• <b>MATT Failure Hook:</b> Tiles with linked items now correctly fire the revealed hook on puzzle failure.<br>• <b>MATT Re-trigger:</b> Already-solved tiles no longer re-open when triggered through MATT.",
   "critical": false,
   "announcement": {
     "id": "v1.3.1-bugfix",
     "show": true,
     "title": "🎁 Unboxing the Mystery v1.3.1",
-    "content": "<p><b>v1.3.1 — Bug Fixes</b></p><ul><li><b>👁️ Spectator:</b> Fixed spectator windows not opening for all puzzle modes.</li><li><b>🃏 Matching:</b> Fixed grid overflow in spectator window and HUD overlap.</li><li><b>🔗 MATT:</b> Action flow now waits for puzzle completion. Supports success/failure anchor branching. Already-solved tiles no longer re-trigger.</li></ul>"
+    "content": "<p><b>v1.3.1 — MATT Integration Fixes</b></p><ul><li><b>🔗 Flow Control:</b> Trigger Puzzle action now pauses the workflow until the puzzle is resolved. Supports optional success/failure anchor tags for conditional branching.</li><li><b>🔗 Failure Hook:</b> Puzzle failure on tiles with linked items now correctly notifies MATT.</li><li><b>🔗 Re-trigger:</b> Already-solved tiles no longer re-open through MATT.</li></ul>"
   }
 }
