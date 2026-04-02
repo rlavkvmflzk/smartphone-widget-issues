@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.9.2",
+  "latestVersion": "1.9.3",
   "downloadUrl": "",
-  "notes": "<b>v1.9.2 Update</b><br>🐛 <b>Bug Fixes:</b><br>• <b>CSS Scoping:</b> Improved internal CSS scoping to prevent potential style conflicts with other modules.",
+  "notes": "<b>v1.9.3 Update</b><br>⚡ Now supports Foundry VTT V13 and V14. Previous versions are no longer supported.",
   "critical": false,
   "announcement": {
-    "id": "v1.9.2-release",
+    "id": "v1.9.3-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.9.2",
-    "content": "<p><b>v1.9.2 — CSS Scoping Fix</b></p><ul><li><b>🐛 CSS Scoping:</b> Improved internal CSS scoping to prevent style conflicts with other modules.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.9.3",
+    "content": "<p><b>v1.9.3 — V14 Migration</b></p><ul><li><b>⚡ V14 Support:</b> Now supports Foundry VTT V13 and V14.</li></ul>"
   }
 }

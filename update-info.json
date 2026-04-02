@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.0",
+  "latestVersion": "2.0.2",
   "downloadUrl": "",
-  "notes": "<b>v2.0.0 Update</b><br>✨ <b>New Features:</b><br>• <b>Signal System:</b> Set signal levels per scene (Full / Weak / No Signal). Messages queue in dead zones and arrive on restore. Calls auto-reject with missed call records.<br>• <b>Signal Dead Zone (V13):</b> Region Behavior for drawing signal-affected areas on the map.<br>• <b>Weak Signal Mode:</b> Message delay, random send failure with retry, and call drops — all GM-configurable per scene and region.<br>• <b>Satellite Phone:</b> Mark phones as immune to all signal blocking.<br>• <b>Custom Frame Themes:</b> Create multiple named frames with image overlay, corner radius, padding, and colors. Real-time preview. ZIP export/import.<br>• <b>Quoted Literals:</b> Use \"ARASAKA\"-NNN in number formats for literal text.",
+  "notes": "<b>v2.0.2 Update</b><br>⚡ Now supports Foundry VTT V13 and V14.<br>🐛 <b>Bug Fixes:</b><br>• <b>Calendar Special Characters:</b> Events with special characters in titles now display correctly.<br>• <b>Calendar Event Deletion:</b> Event deletion no longer fails.<br>• <b>GM Settings Duplicate Apps:</b> Settings no longer crash when external modules register apps with the same ID.",
   "critical": false,
   "announcement": {
-    "id": "v2.0.0-release",
+    "id": "v2.0.2-release",
     "show": true,
-    "title": "📱 Smartphone Widget v2.0.0",
-    "content": "<p><b>Smartphone Widget v2.0.0</b></p><ul><li><b>📡 Signal System:</b> Control where phones work — Full, Weak, or No Signal per scene/region. Messages queue and arrive on restore.</li><li><b>📶 Weak Signal:</b> Message delay, random failure with retry, call drops — all configurable per scene and region.</li><li><b>📡 Satellite Phone:</b> Immune to all signal blocking.</li><li><b>🎨 Custom Frames:</b> Build named frame themes with image overlay, adjust radius/padding/colors with real-time preview. Export as ZIP.</li><li><b>🔢 Quoted Literals:</b> \"ARASAKA\"-NNN-NNN → ARASAKA-482-193.</li></ul>"
+    "title": "📱 Smartphone Widget v2.0.2",
+    "content": "<p><b>v2.0.2 — V14 Migration</b></p><ul><li><b>⚡ V14 Support:</b> Now supports Foundry VTT V13 and V14.</li><li><b>🐛 Calendar:</b> Special characters in event titles and event deletion fixed.</li><li><b>🐛 GM Settings:</b> Duplicate app ID crash fixed.</li></ul>"
   }
 }

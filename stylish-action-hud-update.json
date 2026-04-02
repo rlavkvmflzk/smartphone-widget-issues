@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.3.3",
+    "latestVersion": "2.3.5",
     "critical": false,
-    "notes": "<b>v2.3.3 — Bug Fix</b><br>🐛 Fixed the HUD jumping to the top-left corner when changing any setting while using a top or right anchor position.",
+    "notes": "<b>v2.3.5 Update</b><br>⚡ Now supports Foundry VTT V13 and V14. Previous versions are no longer supported.<br>🐛 Action menu tooltip now hides immediately when clicking an item.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.3.3-bugfix",
-        "title": "⚔️ Stylish Action HUD v2.3.3",
-        "content": "<p><b>v2.3.3 — Bug Fix</b></p><ul><li>Fixed the HUD jumping to the top-left corner when changing settings with a top or right anchor.</li></ul>"
+        "id": "v2.3.5-release",
+        "title": "⚔️ Stylish Action HUD v2.3.5",
+        "content": "<p><b>v2.3.5 — V14 Migration</b></p><ul><li><b>⚡ V14 Support:</b> Now supports Foundry VTT V13 and V14.</li><li><b>🐛 Tooltip:</b> Action menu tooltip now hides immediately on item click.</li></ul>"
     }
 }
