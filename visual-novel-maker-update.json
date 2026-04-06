@@ -1,0 +1,12 @@
+{
+  "latestVersion": "1.0.0",
+  "notes": "Initial release of Visual Novel Maker.",
+  "critical": false,
+  "forceResetId": null,
+  "announcement": {
+    "id": "",
+    "show": false,
+    "title": "",
+    "content": ""
+  }
+}
