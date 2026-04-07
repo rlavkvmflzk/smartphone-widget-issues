@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.0",
-  "notes": "Initial release of Visual Novel Maker.",
+  "latestVersion": "1.0.1",
+  "notes": "✨ GM Voice Detection — GMs can now trigger lip sync on the active character by speaking into the mic.\n✨ Draggable Dock — Drag the character dock to any position. Saved per client.\n🐛 Fixed dialogue box briefly flashing when entering/exiting live mode with Hide Dialogue enabled.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
