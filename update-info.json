@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.2",
+  "latestVersion": "2.0.3",
   "downloadUrl": "",
-  "notes": "<b>v2.0.2 Update</b><br>⚡ Now supports Foundry VTT V13 and V14.<br>🐛 <b>Bug Fixes:</b><br>• <b>Calendar Special Characters:</b> Events with special characters in titles now display correctly.<br>• <b>Calendar Event Deletion:</b> Event deletion no longer fails.<br>• <b>GM Settings Duplicate Apps:</b> Settings no longer crash when external modules register apps with the same ID.",
+  "notes": "<b>v2.0.3 Update</b><br>🐛 <b>Bug Fixes:</b><br>• <b>Wallet App:</b> Fixed an error when viewing sheet-linked currency balances on V14.<br>• <b>Gacha App:</b> Fixed errors when pulling gacha items and posting results to chat on V14.<br>• <b>Banking App:</b> Fixed an error when displaying or transacting sheet-linked currencies on V14.",
   "critical": false,
   "announcement": {
-    "id": "v2.0.2-release",
+    "id": "v2.0.3-release",
     "show": true,
-    "title": "📱 Smartphone Widget v2.0.2",
-    "content": "<p><b>v2.0.2 — V14 Migration</b></p><ul><li><b>⚡ V14 Support:</b> Now supports Foundry VTT V13 and V14.</li><li><b>🐛 Calendar:</b> Special characters in event titles and event deletion fixed.</li><li><b>🐛 GM Settings:</b> Duplicate app ID crash fixed.</li></ul>"
+    "title": "📱 Smartphone Widget v2.0.3",
+    "content": "<p><b>v2.0.3 — V14 Bug Fixes</b></p><ul><li><b>🐛 Wallet App:</b> Sheet-linked currency balance error fixed.</li><li><b>🐛 Gacha App:</b> Gacha pull and chat posting errors fixed.</li><li><b>🐛 Banking App:</b> Sheet-linked currency display/transaction error fixed.</li></ul>"
   }
 }
