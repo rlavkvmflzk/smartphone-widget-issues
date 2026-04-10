@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.1",
-  "notes": "✨ GM Voice Detection — GMs can now trigger lip sync on the active character by speaking into the mic.\n✨ Draggable Dock — Drag the character dock to any position. Saved per client.\n🐛 Fixed dialogue box briefly flashing when entering/exiting live mode with Hide Dialogue enabled.",
+  "latestVersion": "1.0.2",
+  "notes": "✨ Typewriter Sound Effect — Keystroke tick sound during text display. Adjust volume in module settings.\n🐛 Fixed dialogue engine getting permanently stuck after errors, blocking all new scenes until page reload.\n🐛 Fixed video background thumbnails, variant previews, and live director video display issues.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
