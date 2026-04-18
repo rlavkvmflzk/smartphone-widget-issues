@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.2",
-  "notes": "✨ Typewriter Sound Effect — Keystroke tick sound during text display. Adjust volume in module settings.\n🐛 Fixed dialogue engine getting permanently stuck after errors, blocking all new scenes until page reload.\n🐛 Fixed video background thumbnails, variant previews, and live director video display issues.",
+  "latestVersion": "1.1.1",
+  "notes": "✨ FX System — Rain, snow, fog, particles, mood tints, and custom media overlays with per-effect controls.\n✨ Live Director FX Tab — Manage all effects from a dedicated tab with sound, color, and parameter controls.\n✨ Framed Characters — Bordered portrait frames, draggable positioning, circular frame shape.\n🐛 Fixed weather FX darkening the scene on Foundry V13.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
