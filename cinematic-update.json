@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.9.3",
+  "latestVersion": "1.9.4",
   "downloadUrl": "",
-  "notes": "<b>v1.9.3 Update</b><br>⚡ Now supports Foundry VTT V13 and V14. Previous versions are no longer supported.",
+  "notes": "<b>v1.9.4 Update</b><br>🔧 <b>midi-qol Item Triggers Fixed:</b> On Use and Keyword triggers now work correctly with midi-qol for all item types (weapons, spells, equipment).<br>🎨 <b>UI:</b> Renamed 'Create Group' button to 'Create All-Out' to reduce confusion. System hook options hidden when midi-qol is active.",
   "critical": false,
   "announcement": {
-    "id": "v1.9.3-release",
+    "id": "v1.9.4-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.9.3",
-    "content": "<p><b>v1.9.3 — V14 Migration</b></p><ul><li><b>⚡ V14 Support:</b> Now supports Foundry VTT V13 and V14.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.9.4",
+    "content": "<p><b>v1.9.4 — midi-qol Compatibility Fix</b></p><ul><li><b>🔧 Item Triggers:</b> On Use / Keyword triggers now work with midi-qol for all item types (weapons, spells, equipment, consumables).</li><li><b>🎨 UI:</b> 'Create Group' → 'Create All-Out' button rename. System hook options hidden when midi-qol active.</li></ul>"
   }
 }
