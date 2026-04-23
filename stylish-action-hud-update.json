@@ -1,7 +1,7 @@
 {
-    "latestVersion": "2.4.0",
+    "latestVersion": "2.4.1",
     "critical": false,
-    "notes": "<b>v2.4.0 Update</b><br>📝 Card Quick Notes — write memos on any HUD card (all users)<br>💥 HP Change Popup — floating damage/healing numbers<br>👥 Scene Friendly NPCs — auto-display on HUD<br>🗂️ Actor Groups — save & swap roster selections<br>🖱️ Quick Roster Management — right-click add/remove<br>🐛 Fixed item uses (Ki Points, charges) not adjustable via HUD on DnD5e 4.x+",
+    "notes": "<b>v2.4.0 Update</b><br>📝 Card Quick Notes — write memos on any HUD card (all users)<br>💥 HP Change Popup — floating damage/healing numbers<br>👥 Scene Friendly NPCs — auto-display on HUD<br>🗂️ Actor Groups — save & swap roster selections<br>🖱️ Quick Roster Management — right-click add/remove<br>🐛 Fixed item uses (Ki Points, charges) not adjustable via HUD on DnD5e 4.x+<br><br><b>v2.4.1 Hotfix</b><br>🐛 Fixed config panel crash on PF2e",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
