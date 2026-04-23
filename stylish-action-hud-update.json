@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.3.5",
+    "latestVersion": "2.4.0",
     "critical": false,
-    "notes": "<b>v2.3.5 Update</b><br>⚡ Now supports Foundry VTT V13 and V14. Previous versions are no longer supported.<br>🐛 Action menu tooltip now hides immediately when clicking an item.",
+    "notes": "<b>v2.4.0 Update</b><br>📝 Card Quick Notes — write memos on any HUD card (all users)<br>💥 HP Change Popup — floating damage/healing numbers<br>👥 Scene Friendly NPCs — auto-display on HUD<br>🗂️ Actor Groups — save & swap roster selections<br>🖱️ Quick Roster Management — right-click add/remove<br>🐛 Fixed item uses (Ki Points, charges) not adjustable via HUD on DnD5e 4.x+",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.3.5-release",
-        "title": "⚔️ Stylish Action HUD v2.3.5",
-        "content": "<p><b>v2.3.5 — V14 Migration</b></p><ul><li><b>⚡ V14 Support:</b> Now supports Foundry VTT V13 and V14.</li><li><b>🐛 Tooltip:</b> Action menu tooltip now hides immediately on item click.</li></ul>"
+        "id": "v2.4.0-release",
+        "title": "⚔️ Stylish Action HUD v2.4.0",
+        "content": "<p><b>v2.4.0 — Quick Notes, HP Popups, Actor Groups</b></p><ul><li><b>📝 Quick Notes:</b> Write memos on any HUD card. GM notes are world-level, player notes are private.</li><li><b>💥 HP Popup:</b> Floating damage/healing numbers on HP change.</li><li><b>👥 Scene NPCs:</b> Friendly NPCs auto-appear on HUD.</li><li><b>🗂️ Actor Groups:</b> Save actor selections as groups, swap the entire roster at once.</li><li><b>🖱️ Roster:</b> Right-click actors or cards to add/remove from HUD.</li><li><b>🐛 Fix:</b> Item uses (Ki Points, charges) now adjustable on DnD5e 4.x+.</li></ul>"
     }
 }
