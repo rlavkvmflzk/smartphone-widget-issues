@@ -7,6 +7,6 @@
     "id": "v2.1.1-bugfix",
     "show": true,
     "title": "📱 Smartphone Widget v2.1.1",
-    "content": "<p><b>v2.1.1 — Bug Fixes</b></p><ul><li>Fixed group chat name being empty on creation.</li><li>Fixed group deletion notification not being localized.</li><li>Fixed crack/repair toast showing the wrong message.</li></ul><br><p>🐦 <b>New Add-on: Chirp App!</b> A Twitter-style SNS app for the Smartphone Widget. Check it out on the module page!</p>"
+    "content": "<p><b>v2.1.1 — Bug Fixes</b></p><ul><li>Fixed group chat name being empty on creation.</li><li>Fixed group deletion notification not being localized.</li><li>Fixed crack/repair toast showing the wrong message.</li></ul><br><p>🐦 <b>New Add-on: Chirp App!</b> A Twitter-style SNS app for the Smartphone Widget. Check it out on Patreon!</p>"
   }
 }
