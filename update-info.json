@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.1.0",
+  "latestVersion": "2.1.1",
   "downloadUrl": "",
-  "notes": "<b>v2.1.0 Update</b><br>🕵️ <b>Anonymous Messaging:</b> GM can hide NPC identity in 1:1 and group chats. Custom fake name/image, reveal at any time.<br>🔒 <b>Phone Lock Screen:</b> 4-digit PIN or 9-dot pattern lock per phone.<br>📅 <b>Calendaria Integration:</b> Time and weather sync with Calendaria module.<br>🪟 <b>Pop-Out Window:</b> Detach phone to separate browser window (V14).<br>⚡ <b>Master Phone Group Creation, Temperature Unit Lock</b>",
+  "notes": "<b>v2.1.1 Bug Fixes</b><br>🐛 Fixed group chat name being empty when creating a new group.<br>🐛 Fixed group deletion notification using hardcoded Korean instead of localized text.<br>🐛 Fixed crack/repair toast showing the opposite message.",
   "critical": false,
   "announcement": {
-    "id": "v2.1.0-release",
+    "id": "v2.1.1-bugfix",
     "show": true,
-    "title": "📱 Smartphone Widget v2.1.0",
-    "content": "<p><b>v2.1.0 — Anonymous Messaging, Lock Screen, Calendaria & Pop-Out</b></p><ul><li><b>🕵️ Anonymous Messaging:</b> Hide NPC identity in 1:1 and group chats. Reveal anytime.</li><li><b>🔒 Lock Screen:</b> PIN or pattern lock per phone.</li><li><b>📅 Calendaria:</b> Time & weather sync.</li><li><b>🪟 Pop-Out:</b> Detach phone to separate window (V14).</li><li><b>⚡ More:</b> Master phone group creation, temperature unit lock.</li></ul>"
+    "title": "📱 Smartphone Widget v2.1.1",
+    "content": "<p><b>v2.1.1 — Bug Fixes</b></p><ul><li>Fixed group chat name being empty on creation.</li><li>Fixed group deletion notification not being localized.</li><li>Fixed crack/repair toast showing the wrong message.</li></ul><br><p>🐦 <b>New Add-on: Chirp App!</b> A Twitter-style SNS app for the Smartphone Widget. Check it out on the module page!</p>"
   }
 }
