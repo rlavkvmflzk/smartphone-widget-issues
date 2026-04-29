@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.9.4",
+  "latestVersion": "1.9.5",
   "downloadUrl": "",
-  "notes": "<b>v1.9.4 Update</b><br>🔧 <b>midi-qol Item Triggers Fixed:</b> On Use and Keyword triggers now work correctly with midi-qol for all item types (weapons, spells, equipment).<br>🎨 <b>UI:</b> Renamed 'Create Group' button to 'Create All-Out' to reduce confusion. System hook options hidden when midi-qol is active.",
+  "notes": "<b>v1.9.5 Update</b><br>🔧 <b>Default Spell Preset Fixed:</b> The fallback cut-in for spells was not firing at all — now works correctly across DnD5e, PF2e, PF1e, and with Midi-QOL.<br>🔧 <b>Spell Use / Template Triggers Fixed:</b> Per-item On Use triggers and template placement triggers were silently failing.",
   "critical": false,
   "announcement": {
-    "id": "v1.9.4-release",
+    "id": "v1.9.5-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.9.4",
-    "content": "<p><b>v1.9.4 — midi-qol Compatibility Fix</b></p><ul><li><b>🔧 Item Triggers:</b> On Use / Keyword triggers now work with midi-qol for all item types (weapons, spells, equipment, consumables).</li><li><b>🎨 UI:</b> 'Create Group' → 'Create All-Out' button rename. System hook options hidden when midi-qol active.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.9.5",
+    "content": "<p><b>v1.9.5 — Spell Trigger Fix</b></p><ul><li><b>🔧 Default Spell Preset:</b> The fallback cut-in for spells was not firing at all. Now works correctly across all supported systems and with Midi-QOL.</li><li><b>🔧 Item Triggers:</b> Per-item On Use triggers and template placement triggers (e.g. Fireball area) were silently failing. Fixed.</li></ul>"
   }
 }
