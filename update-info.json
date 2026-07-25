@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.3.2",
+  "latestVersion": "2.3.3",
   "downloadUrl": "",
-  "notes": "<b>v2.3.2 (v2.3.0 Feature Update)</b><br>- Master Phone conversations now include GM tools for creating, editing, inserting, and deleting message records.<br>- Bank accounts can exchange configured virtual and actor-sheet currencies, and the phone can be resized from its bottom-right corner.<br>- External smartphone apps can register their own theme pickers in Settings.<br>- Banking and player-authored message changes now use stricter GM-side validation, with fixes for conversation state, alerts, and message order.<br>- Requires GlitchSmith Library v0.10.0 or newer.",
+  "notes": "<b>v2.3.3 Update</b><br>- Fixed the Calendar app starting months on Sunday when Calendaria did not return a weekday value. Smartphone Widget now calculates the weekday through Calendaria's API so dates stay aligned with the source calendar.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "smartphone-widget-v2.3.2-feature-update",
+    "id": "smartphone-widget-v2.3.3-feature-update",
     "show": true,
-    "title": "📱 Smartphone Widget v2.3.2",
-    "content": "<p><b>Smartphone Widget v2.3.2 includes the full v2.3.0 feature update.</b></p><ul><li>Master Phone conversations now include GM controls for creating, editing, inserting, and deleting message records.</li><li>Bank accounts can exchange configured virtual and actor-sheet currencies, and the phone can be resized directly from its bottom-right corner.</li><li>External apps can register theme pickers in Settings, including Smartphone - Shop App themes.</li><li>Banking and player-authored message changes use stricter GM-side validation, with fixes for conversation state, alerts, and message order.</li><li>GlitchSmith Library v0.10.0 or newer is required.</li></ul>"
+    "title": "📱 Smartphone Widget v2.3.3",
+    "content": "<p><b>Smartphone Widget v2.3.3 fixes Calendar alignment with Calendaria.</b></p><ul><li>When Calendaria does not include a weekday value in its timestamp response, the phone now calculates it through Calendaria's API so dates stay aligned with the source calendar.</li></ul>"
   }
 }
