@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.5.7",
+    "latestVersion": "2.5.9",
     "critical": false,
-    "notes": "<b>v2.5.7 Update</b><br>⚔️ <b>Actor nameplate rotation:</b> Rotate actor name text from Global HUD Layout or per-actor Internal Offsets.<br>🧩 <b>Adapter custom categories:</b> Custom Action Menu categories can now be appended after third-party adapter categories without duplicating system-backed buttons.",
+    "notes": "<b>v2.5.9 Update</b><br>⚗️ <b>PF2e physical item quantities:</b> Stat Tracking now covers every PF2e physical item type, keeps zero-quantity items selectable, and supports resources such as Versatile Vial.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.5.7-release",
-        "title": "⚔️ Stylish Action HUD v2.5.7",
-        "content": "<p><b>v2.5.7 adds actor nameplate rotation and improves custom Action Menu category handling for system adapters.</b></p><ul><li><b>Actor nameplate rotation:</b> Use the new <code>Name Rotation</code> field in Global HUD Layout or per-actor Internal Offsets to rotate actor name text.</li><li><b>Adapter custom categories:</b> Custom categories can now appear after third-party adapter categories, while system-backed layout entries are skipped to avoid duplicate buttons.</li></ul>"
+        "id": "v2.5.9-release",
+        "title": "⚔️ Stylish Action HUD v2.5.9",
+        "content": "<p><b>PF2e physical item quantity tracking now covers every physical item type.</b></p><ul><li>The path picker lists all PF2e physical item types, including ammunition, armor, backpacks, books, shields, and weapons.</li><li>Items at zero quantity remain selectable, and quantity editing uses the same physical-item check.</li><li>Resources such as Versatile Vial can now be tracked directly from the HUD.</li></ul>"
     }
 }

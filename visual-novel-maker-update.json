@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.3.3",
-  "notes": "<b>v1.3.3 Hotfix</b><br>🐛 <b>Typewriter Skip Toggle:</b> Unchecking \"Skip typewriter\" on a Story node now saves the disabled state correctly. Closing and reopening the Interaction Editor no longer turns the option back on.",
+  "latestVersion": "1.3.4",
+  "notes": "<b>v1.3.4 Hotfix</b><br>🐛 <b>Dialogue Backlog Duplicate Messages:</b> Live Mode no longer adds the same Foundry chat message to the Dialogue Backlog multiple times when several clients are connected or a player joins after the session starts.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.3.3-release",
+    "id": "visual-novel-maker-v1.3.4-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.3.3",
-    "content": "<p><b>Visual Novel Maker v1.3.3 fixes the per-node typewriter skip toggle.</b></p><ul><li>Unchecking \"Skip typewriter\" now remains disabled after closing and reopening the Interaction Editor.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.3.4",
+    "content": "<p><b>Visual Novel Maker v1.3.4 fixes duplicate Dialogue Backlog entries in Live Mode.</b></p><ul><li>Each Foundry chat message is now added once, including sessions with several connected clients or players joining after Live Mode starts.</li></ul>"
   }
 }
