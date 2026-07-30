@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.6",
+  "latestVersion": "1.4.7",
   "downloadUrl": "",
-  "notes": "<b>v1.4.6 Update</b><br>✨ <b>GM pity reset:</b> GMs can reset their own pity progress and 50/50 featured guarantee from the gacha screen.<br>🐛 <b>Daggerheart resource bars:</b> Unboxing styles no longer override HP and Stress bars on Daggerheart character sheets.",
+  "notes": "<b>v1.4.7 Update</b><br>🐛 <b>Route-prefix hosting:</b> Unboxing now loads correctly when Foundry is hosted under a URL route prefix.<br>🐛 <b>Hidden journal buttons:</b> Linked journal buttons now appear correctly when players receive permission during a tile reveal.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "unboxing-mystery-v1.4.6-release",
+    "id": "unboxing-mystery-v1.4.7-release",
     "show": true,
-    "title": "🎁 Unboxing the Mystery v1.4.6",
-    "content": "<p><b>Unboxing the Mystery v1.4.6 adds a GM pity reset and fixes Daggerheart resource bars.</b></p><ul><li><b>GM pity reset:</b> GMs can reset their own pity progress and 50/50 featured guarantee for the current gacha pool without affecting other users or pools.</li><li><b>Daggerheart resource bars:</b> Unboxing styles no longer override HP and Stress bars on Daggerheart character sheets.</li></ul>"
+    "title": "🎁 Unboxing the Mystery v1.4.7",
+    "content": "<p><b>Unboxing the Mystery v1.4.7 fixes initialization on route-prefixed Foundry servers and restores linked journal buttons during tile reveals.</b></p><ul><li><b>Route-prefix hosting:</b> Module settings and Tile HUD controls now register correctly when Foundry is hosted under a URL route prefix.</li><li><b>Hidden journal buttons:</b> Linked journal buttons remain available when a player does not initially have permission, so permission changes work without reopening the tile.</li></ul>"
   }
 }
