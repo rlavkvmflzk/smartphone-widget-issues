@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.5.9",
+    "latestVersion": "2.7.0",
     "critical": false,
-    "notes": "<b>v2.5.9 Update</b><br>⚗️ <b>PF2e physical item quantities:</b> Stat Tracking now covers every PF2e physical item type, keeps zero-quantity items selectable, and supports resources such as Versatile Vial.",
+    "notes": "<b>v2.7.0 Update</b><br>🧭 <b>Tooltip side:</b> Choose Automatic, Left, or Right, with automatic fallback when the preferred side lacks room.<br>📐 <b>Submenu width:</b> Set Action Menu submenus from 280 to 700 pixels; sizing accounts for HUD scale, theme width, and screen edges.<br>👤 <b>Personal settings:</b> Tooltip and submenu controls are grouped in the Action Menu settings panel and remain available without global style-edit permission.<br>🐛 <b>Fixes:</b> DnD5e enricher punctuation stays in line, and bundled hover sounds replace removed Foundry click.wav paths.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.5.9-release",
-        "title": "⚔️ Stylish Action HUD v2.5.9",
-        "content": "<p><b>PF2e physical item quantity tracking now covers every physical item type.</b></p><ul><li>The path picker lists all PF2e physical item types, including ammunition, armor, backpacks, books, shields, and weapons.</li><li>Items at zero quantity remain selectable, and quantity editing uses the same physical-item check.</li><li>Resources such as Versatile Vial can now be tracked directly from the HUD.</li></ul>"
+        "id": "v2.7.0-release",
+        "title": "⚔️ Stylish Action HUD v2.7.0",
+        "content": "<p><b>v2.7.0 adds personal Action Menu placement controls and fixes two tooltip issues.</b></p><ul><li>Choose Automatic, Left, or Right for tooltips; they switch sides when screen space is limited.</li><li>Set submenu width between 280 and 700 pixels. Menus account for HUD scale, theme width, and screen edges.</li><li>Tooltip position, tooltip side, submenu side, and submenu width are grouped in Action Menu settings and available to players as client-only options.</li><li>DnD5e attack and damage tooltips keep punctuation in line instead of placing . Hit: on a separate line.</li><li>Action Menu hover sounds use bundled files instead of removed Foundry click.wav paths, preventing 404 errors.</li></ul>"
     }
 }
