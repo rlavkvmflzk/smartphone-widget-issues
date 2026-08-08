@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.2",
+  "latestVersion": "2.0.3",
   "downloadUrl": "",
-  "notes": "<b>v2.0.2 Bug Fix</b><br>🛠️ <b>Preset Editing & Automation:</b> Fixed loaded personal and global preset edits appearing to revert or being saved over the wrong same-name preset. Turn start and turn end automation can now explicitly target Actor: Active Config, while personal and global preset choices remain linked to their reusable source.<br><br>💾 <b>Draft Preservation:</b> Editor refresh actions now preserve unsaved preset names, group settings, scene scope, and cut-in changes. Newly saved presets also appear immediately in preset and trigger selectors.",
+  "notes": "<b>v2.0.3 Update</b><br>🖼️ <b>Actor Image Source:</b> Actor cut-ins and global styles can use either the saved preset image or the current actor's image. Global style previews and local tests use the selected reference actor.<br><br>🏷️ <b>Actor Name Placeholder:</b> The Actor Name button inserts <code>{{name}}</code> into the main text and replaces it with the current actor's name during playback, including direct API and copied macro playback.<br><br>🔌 <b>Playable Cut-In API:</b> Integrations can list playable scene cut-ins and actor presets, play them by stable ID, wait for playback to finish, or render them inside a supplied interface element.<br><br>🛠️ <b>Global Style Images:</b> Empty global style image paths are no longer replaced by the default hooded image when the editor opens. Current Actor Image takes priority over randomized image variations during playback.",
   "critical": false,
   "announcement": {
-    "id": "v2.0.2-release",
+    "id": "v2.0.3-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v2.0.2",
-    "content": "<p><b>v2.0.2: Preset Editing and Automation Fixes</b></p><ul><li>Loaded personal and global preset edits no longer appear to revert or overwrite the wrong same-name preset.</li><li>Turn start and turn end automation can explicitly target Actor: Active Config, while personal and global preset choices remain linked to their reusable source.</li><li>Editor refresh actions preserve unsaved preset names, group settings, scene scope, and cut-in changes. Newly saved presets also appear immediately in preset and trigger selectors.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v2.0.3",
+    "content": "<p><b>v2.0.3: Actor Images, Name Placeholder, and Playable API</b></p><ul><li>Actor cut-ins and global styles can use either their saved preset image or the current actor's image.</li><li>The Actor Name button inserts <code>{{name}}</code> and replaces it with the current actor's name during playback.</li><li>New integration APIs list and play presets by stable ID, wait for playback to finish, or keep a cut-in inside a supplied interface element.</li><li>Blank global style image paths stay blank, and Current Actor Image takes priority over randomized image variations.</li></ul>"
   }
 }
