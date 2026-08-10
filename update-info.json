@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.3.3",
+  "latestVersion": "2.3.4",
   "downloadUrl": "",
-  "notes": "<b>v2.3.3 Update</b><br>- Fixed the Calendar app starting months on Sunday when Calendaria did not return a weekday value. Smartphone Widget now calculates the weekday through Calendaria's API so dates stay aligned with the source calendar.",
+  "notes": "<b>v2.3.4 Update</b><br>- Long conversations now display the latest 30 messages first and load 30 older messages at a time when you scroll to the top.<br>- Message history loading now preserves scroll position and stays consistent when messages change or you switch chats or phones.<br>- Fixed the Bio Monitor Widget preventing the phone home screen from rendering.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "smartphone-widget-v2.3.3-feature-update",
+    "id": "smartphone-widget-v2.3.4-feature-update",
     "show": true,
-    "title": "📱 Smartphone Widget v2.3.3",
-    "content": "<p><b>Smartphone Widget v2.3.3 fixes Calendar alignment with Calendaria.</b></p><ul><li>When Calendaria does not include a weekday value in its timestamp response, the phone now calculates it through Calendaria's API so dates stay aligned with the source calendar.</li></ul>"
+    "title": "📱 Smartphone Widget v2.3.4",
+    "content": "<p><b>Smartphone Widget v2.3.4 improves long conversation loading and fixes the Bio Monitor Widget.</b></p><ul><li>Long conversations show 30 messages at a time and preserve your position while older messages load.</li><li>Messages that arrive or change while older history is loading no longer produce stale or missing entries. Switching chats or phones also cancels the old render.</li><li>Bio Monitor Widgets no longer stop the phone home screen from rendering.</li></ul>"
   }
 }
