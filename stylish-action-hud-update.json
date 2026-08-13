@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.7.0",
+    "latestVersion": "2.7.1",
     "critical": false,
-    "notes": "<b>v2.7.0 Update</b><br>🧭 <b>Tooltip side:</b> Choose Automatic, Left, or Right, with automatic fallback when the preferred side lacks room.<br>📐 <b>Submenu width:</b> Set Action Menu submenus from 280 to 700 pixels; sizing accounts for HUD scale, theme width, and screen edges.<br>👤 <b>Personal settings:</b> Tooltip and submenu controls are grouped in the Action Menu settings panel and remain available without global style-edit permission.<br>🐛 <b>Fixes:</b> DnD5e enricher punctuation stays in line, and bundled hover sounds replace removed Foundry click.wav paths.",
+    "notes": "<b>v2.7.1 Update</b><br>🔇 <b>Action Menu hover audio:</b> Category buttons are silent on hover by default. Global and per-category hover sounds still play when explicitly configured.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.7.0-release",
-        "title": "⚔️ Stylish Action HUD v2.7.0",
-        "content": "<p><b>v2.7.0 adds personal Action Menu placement controls and fixes two tooltip issues.</b></p><ul><li>Choose Automatic, Left, or Right for tooltips; they switch sides when screen space is limited.</li><li>Set submenu width between 280 and 700 pixels. Menus account for HUD scale, theme width, and screen edges.</li><li>Tooltip position, tooltip side, submenu side, and submenu width are grouped in Action Menu settings and available to players as client-only options.</li><li>DnD5e attack and damage tooltips keep punctuation in line instead of placing . Hit: on a separate line.</li><li>Action Menu hover sounds use bundled files instead of removed Foundry click.wav paths, preventing 404 errors.</li></ul>"
+        "id": "v2.7.1-release",
+        "title": "⚔️ Stylish Action HUD v2.7.1",
+        "content": "<p><b>v2.7.1 is an audio hotfix for the Action Menu.</b></p><ul><li>Action Menu category buttons are silent on hover by default.</li><li>Global and per-category hover sounds still play when explicitly configured.</li></ul>"
     }
 }
