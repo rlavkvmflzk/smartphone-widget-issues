@@ -1,13 +1,13 @@
 {
-  "latestVersion": "0.11.0",
+  "latestVersion": "0.12.0",
   "downloadUrl": "",
-  "notes": "<b>v0.11.0 Update</b><br>- GlitchSmith Actor sheet controls now appear under one GlitchSmith dropdown.<br>- The unified menu is enabled by default and can be disabled per client in GlitchSmith Library settings.<br>- Legacy and Application V2 Actor sheets are supported on Foundry V13 and V14.",
+  "notes": "<b>v0.12.0 Update</b><br>- Added shared Actor Metrics support for D&D5e, PF2e, and generic systems.<br>- This version is required by the latest Stylish Action HUD stat tracking.<br>- Update GlitchSmith Library to restore tracked attributes and the full PF2e suggested value-path list, then reload your world.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "glitchsmith-lib-v0.11.0-unified-actor-menu",
+    "id": "glitchsmith-lib-v0.12.0-actor-metrics",
     "show": true,
-    "title": "🔔 GlitchSmith Library v0.11.0",
-    "content": "<p><b>GlitchSmith Library v0.11.0 can group GlitchSmith controls on Actor sheets.</b></p><ul><li>Wallet, Cinematic FX, HUD Overlay URL, VN Portrait Config, Shop Settings, and Relationship Tracker controls appear under one GlitchSmith dropdown when available.</li><li>The option is enabled by default and can be turned off separately by each user.</li><li>The original visibility checks, permissions, and actions remain in effect.</li></ul>"
+    "title": "🔔 GlitchSmith Library v0.12.0",
+    "content": "<p><b>Please update GlitchSmith Library to v0.12.0 if you use the latest Stylish Action HUD.</b></p><ul><li>This update adds the Actor Metrics API required for tracked attributes.</li><li>PF2e users will regain the full suggested value-path list.</li><li>Reload your world after updating.</li></ul>"
   }
 }
