@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.3.5",
-  "notes": "<b>v1.3.5 Hotfix</b><br>🐛 <b>Prepared Story Dialogue Visibility:</b> Prepared Story nodes now synchronize \"Hide dialogue box on this node\" to connected players. Hidden nodes keep scene, character, and picture actions visible without exposing dialogue or narration, and visible nodes restore the dialogue UI normally.",
+  "latestVersion": "1.3.6",
+  "notes": "<b>v1.3.6 Hotfix</b><br>🐛 <b>Interaction Controls:</b> Tile HUD launches now respect Direct, Private, and GM Select, and turning off GM-only advance restores player controls.<br>🐛 <b>Hidden Dialogue and Choices:</b> Players can advance hidden dialogue safely, while choices and votes reject stale or unauthorized responses.<br>🐛 <b>Editor Saving:</b> Node picker names, unchecked options, cleared node names, and deleted conditional branches now save correctly.<br>🐛 <b>Targeted Stories and Jump:</b> Story state stays within the selected audience, and Jump preserves private or targeted scenes while replacing the previous story cleanly.<br>🐛 <b>Backlog Export:</b> TXT and HTML exports now download normally.<br>🐛 <b>Thumbnail Failures:</b> Failed saves fall back to original portraits and repair missing thumbnail paths when possible.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.3.5-release",
+    "id": "visual-novel-maker-v1.3.6-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.3.5",
-    "content": "<p><b>Visual Novel Maker v1.3.5 fixes dialogue visibility for Prepared Story nodes.</b></p><ul><li>The \"Hide dialogue box on this node\" setting now applies to connected players.</li><li>Hidden nodes still show scene, character, and picture actions without displaying dialogue or narration.</li><li>Later visible nodes restore the dialogue UI normally.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.3.6",
+    "content": "<p><b>Visual Novel Maker v1.3.6 fixes interaction controls, editor saving, targeted story privacy, and thumbnail failures.</b></p><ul><li>Tile HUD modes and the GM-only advance toggle now apply correctly.</li><li>Hidden dialogue can be advanced safely, and stale or unauthorized choice responses are ignored.</li><li>Node picker names, unchecked options, cleared names, and deleted branches now save correctly.</li><li>Targeted stories and Jump actions preserve their intended audience and close the previous scene cleanly.</li><li>Dialogue Backlog TXT and HTML exports now download normally.</li><li>Failed thumbnail saves fall back to original portraits and repair missing paths when possible.</li></ul>"
   }
 }
