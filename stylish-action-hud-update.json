@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.7.1",
+    "latestVersion": "2.7.2",
     "critical": false,
-    "notes": "<b>v2.7.1 Update</b><br>🔇 <b>Action Menu hover audio:</b> Category buttons are silent on hover by default. Global and per-category hover sounds still play when explicitly configured.",
+    "notes": "<b>v2.7.2 Update</b><br><b>Tooltip text contrast:</b> Action Menu tooltip emphasis and PF2e degree-of-success descriptions now follow the selected theme's text color. They remain readable on light themes such as Zenith.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.7.1-release",
-        "title": "⚔️ Stylish Action HUD v2.7.1",
-        "content": "<p><b>v2.7.1 is an audio hotfix for the Action Menu.</b></p><ul><li>Action Menu category buttons are silent on hover by default.</li><li>Global and per-category hover sounds still play when explicitly configured.</li></ul>"
+        "id": "v2.7.2-release",
+        "title": "⚔️ Stylish Action HUD v2.7.2",
+        "content": "<p><b>v2.7.2 fixes Action Menu tooltip text contrast.</b></p><ul><li>Emphasized text and PF2e degree-of-success descriptions now follow the selected theme's text color, including on light themes such as Zenith.</li></ul>"
     }
 }
