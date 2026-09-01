@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.7",
+  "latestVersion": "1.5.0",
   "downloadUrl": "",
-  "notes": "<b>v1.4.7 Update</b><br>🐛 <b>Route-prefix hosting:</b> Unboxing now loads correctly when Foundry is hosted under a URL route prefix.<br>🐛 <b>Hidden journal buttons:</b> Linked journal buttons now appear correctly when players receive permission during a tile reveal.",
+  "notes": "<b>v1.5.0 Update</b><br>🔗 Build ordered Mystery Chains and supervise them with the Mystery Director.<br>🎯 Direct reveals to a solver and viewers, or pause unresolved play without exposing unrevealed content.<br>📦 Export and import Mystery Kit ZIP packages with selected linked documents, gacha pools, and user-data media. External dependencies remain external.<br>🃏 Run shared or per-player finite reward decks with stock controls, refill schedules, and banner windows.<br>🎲 Convert duplicate rewards, import RollTable Items, hide pools from the toolbar, and run Tile outcome macros.<br>🐛 Fixed bonus pulls, legacy Journal targeting, spectator synchronization, MATT already-revealed routing, and empty Tile image field preservation.<br>🔧 Requires GlitchSmith Library 0.13.0 or later.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "unboxing-mystery-v1.4.7-release",
+    "id": "unboxing-mystery-v1.5.0-release",
     "show": true,
-    "title": "🎁 Unboxing the Mystery v1.4.7",
-    "content": "<p><b>Unboxing the Mystery v1.4.7 fixes initialization on route-prefixed Foundry servers and restores linked journal buttons during tile reveals.</b></p><ul><li><b>Route-prefix hosting:</b> Module settings and Tile HUD controls now register correctly when Foundry is hosted under a URL route prefix.</li><li><b>Hidden journal buttons:</b> Linked journal buttons remain available when a player does not initially have permission, so permission changes work without reopening the tile.</li></ul>"
+    "title": "🎁 Unboxing the Mystery v1.5.0",
+    "content": "<p>Unboxing the Mystery v1.5.0 adds Mystery Chains, Mystery Kit packages, and finite reward decks.</p><ul><li>Connect existing puzzle modes into an ordered Mystery Chain, then supervise progress, hints, pauses, reassignment, and completion from the Mystery Director.</li><li>Assign a solver and viewers for directed reveals, or pause unresolved play without deleting settings or progress while unrevealed content stays sealed.</li><li>Export configured Journal pages or Items as Mystery Kit ZIP packages with selected linked documents, gacha pools, and user-data media. External dependencies remain external.</li><li>Run shared or per-player finite reward decks with stock management, scheduled refills, banner windows, and real-time or game-time clocks.</li><li>Convert duplicate rewards, import RollTable Items, hide pools from the default toolbar, preserve pool settings during transfer, and run Tile success or failure macros.</li><li>This release also fixes bonus pulls, legacy Journal targeting, Rune Matching and Circuit Maze spectator synchronization, MATT already-revealed routing, and empty Tile image field preservation.</li></ul><p>GlitchSmith Library 0.13.0 or later is required.</p>"
   }
 }
